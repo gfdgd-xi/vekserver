@@ -6,7 +6,6 @@
         "writeCopy": "false",
         "rtServer": "false",
         "dockSystemVersion": "win7",
-        "dockName":"vekON1",
         "wineVersion":"wine5.6-dev"
     },
     "env": {
