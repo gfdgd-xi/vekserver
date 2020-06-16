@@ -20,7 +20,7 @@
     "dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "true",
+        "dxvkHUD": "true"
     },
     "reg": {
         "regNode": {
