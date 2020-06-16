@@ -1,7 +1,6 @@
 {
     "option": {
         "gameName": "古剑奇谭网络版",
-        "exeName": "GameLauncher.exe",
         "defaultFont": "false",
         "sharedMemory": "false",
         "writeCopy": "false",
