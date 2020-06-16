@@ -2,10 +2,10 @@
     "option": {
         "gameName": "古剑奇谭网络版",
         "exeName": "GameLauncher.exe",
-        "defaultFont": false,
-        "sharedMemory": false,
-        "writeCopy": false,
-        "rtServer": false,
+        "defaultFont": "false",
+        "sharedMemory": "false",
+        "writeCopy": "false",
+        "rtServer": "false",
         "dockSystemVersion": "win7"
     },
     "env": {
@@ -18,9 +18,9 @@
         "vc++2015"
     ],
     "dxvk": {
-        "dxvkState": true,
+        "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": true,
+        "dxvkHUD": "true",
         "dxvkConfig": ""
     },
     "reg": {
