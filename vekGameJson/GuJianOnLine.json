@@ -1,12 +1,15 @@
 {
     "option": {
         "gameName": "古剑奇谭网络版",
+        "gameCID":"dxdxdx",
         "exeName": "GameLauncher.exe",
         "defaultFont": "false",
         "sharedMemory": "false",
         "writeCopy": "false",
         "rtServer": "false",
-        "dockSystemVersion": "win7"
+        "dockSystemVersion": "win7",
+        "dockName":"vekON1",
+        "wineVersion":"wine5.6-dev"
     },
     "env": {
         "env1": "value1",
