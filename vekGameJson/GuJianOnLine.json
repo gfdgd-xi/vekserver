@@ -1,10 +1,10 @@
 {
     "option": {
         "gameName": "古剑奇谭网络版",
-        "defaultFont": "false",
-        "sharedMemory": "false",
-        "writeCopy": "false",
-        "rtServer": "false",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "ture",
         "dockSystemVersion": "win7",
         "wineVersion":"wine5.6-dev"
     },
