@@ -6,7 +6,7 @@
         "writeCopy": "true",
         "rtServer": "ture",
         "dockSystemVersion": "win7",
-        "wineVersion":"wine5.6-dev"
+        "wineVersion": "wine5.6-dev"
     },
     "env": {
         "env1": "value1",
@@ -23,8 +23,10 @@
         "dxvkHUD": "true"
     },
     "reg": {
-        "key": "value",
-        "key2": "value"
+        "regnode": {
+            "key": "value",
+            "ke1": "value1"
+        }
     },
     "Args": "value"
 }
