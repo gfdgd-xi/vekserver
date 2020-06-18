@@ -8,25 +8,13 @@
         "dockSystemVersion": "win7",
         "wineVersion": "wine5.6-dev"
     },
-    "env": {
-        "env1": "value1",
-        "env2": "value2",
-        "env3": "value3"
-    },
-    "dll": [
-        "vc++2013",
-        "vc++2015"
-    ],
+    "env": {},
+    "dll": [],
     "dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
         "dxvkHUD": "true"
     },
-    "reg": {
-        "regNode": {
-            "key": "value",
-            "vke2": "value"
-        }
-    },
-    "Args": "value"
+    "reg": {},
+    "Args": ""
 }
