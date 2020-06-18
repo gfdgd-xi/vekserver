@@ -23,8 +23,10 @@
         "dxvkHUD": "true"
     },
     "reg": {
-        "key": "value",
-        "ke1": "value1"
+        "regNode": {
+            "key": "value",
+            "vke2": "value"
+        }
     },
     "Args": "value"
 }
