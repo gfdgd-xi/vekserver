@@ -9,7 +9,10 @@
         "wineVersion": "wine5.6-dev"
     },
     "Env": {},
-    "Libs": [],
+    "Libs": [
+        "vcrun2013",
+        "vcrun2015"
+    ],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
