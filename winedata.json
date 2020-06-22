@@ -1,1 +1,8 @@
-[{"wineName":"wine5.6-dev","wineVersion":"5.6-dev","wineGit":"https://e.coding.net/JackLee_CN/VekGame.git","wineDxvk":"dxvk-1.7"}]
+[
+    {
+        "wineName": "wine5.6-dev",
+        "wineVersion": "5.6-dev",
+        "wineGit": "https://e.coding.net/JackLee_CN/VekGame.git",
+        "wineDxvk": "dxvk-1.7"
+    }
+]
