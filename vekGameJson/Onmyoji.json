@@ -1,0 +1,20 @@
+{
+    "Option": {
+        "gameName": "阴阳师",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "ture",
+        "dockSystemVersion": "win7",
+        "wineVersion": "wine5.6-dev"
+    },
+    "Env": {},
+    "Libs": [],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {},
+    "Args": ""
+}
