@@ -6,5 +6,13 @@
         "wineDxvk": [
             "dxvk-1.7"
         ]
+    },
+    "wine5.7-dev": {
+        "wineName": "wine5.7-dev",
+        "wineVersion": "5.7-dev",
+        "wineGit": "https://e.coding.net/JackLee_CN/VekGame.git",
+        "wineDxvk": [
+            "dxvk-1.7"
+        ]
     }
 }
