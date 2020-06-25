@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "古剑奇谭网络版",
+        "gameName": "阴阳师",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",
@@ -9,14 +9,11 @@
         "wineVersion": "wine5.6-dev"
     },
     "Env": {},
-    "Libs": [
-        "vcrun2013",
-        "vcrun2015"
-    ],
+    "Libs": [],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "true"
+        "dxvkHUD": "false"
     },
     "Regs": {},
     "Args": ""
