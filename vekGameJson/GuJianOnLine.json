@@ -5,8 +5,7 @@
         "sharedMemory": "true",
         "writeCopy": "true",
         "rtServer": "ture",
-        "dockSystemVersion": "win7",
-        "wineVersion": "wine5.6-dev"
+        "dockSystemVersion": "win7"
     },
     "Env": {},
     "Libs": [
