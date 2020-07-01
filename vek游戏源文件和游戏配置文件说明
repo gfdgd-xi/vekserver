@@ -1,0 +1,42 @@
+源文件内容格式如下：
+{
+    "古剑奇谭网络版": "https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GuJianOnLine.json",
+    "阴阳师":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json",
+    "GoogleEarth":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GoogleEarth.json"
+}
+
+一行为一个游戏，游戏的容器配置脚本为json路径，如果json托管在代码托管平台，那么必须写入游戏配置json的原始文件路径。
+
+游戏配置文件格式：
+{
+    "Option": {
+        "gameName": "阴阳师",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "ture",
+        "dockSystemVersion": "win7"
+    },
+    "Env": {},
+    "Libs": [],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {},
+    "Args": ""
+}
+option：
+为必填选项，即便bool值为false也要写入false。
+dockSystemVersion项目目前支持win7个wind10.设置的时候切勿设置成windows10和windows7,这种无法识别。
+
+Env：环境变量 此类环境变量主要是在游戏运行当前进程设置当前进程的环境变量，不会修改docker。
+libs：是游戏运行前必须安装的运行库。目前运行库安装采用的方式是winetricks（提醒：winetricks有些运行库由于上游下载速度问题导致无法安装本人无能为力）
+当然libs里面的运行库名字也必须是winetricks内有的库名字。
+Dxvk：独有的功能，和winetricks内的dxvk存在冲突。vek的dxvk和winetricks的dxvk只能二选一。
+dxvkState：dxvk状态，启动or未启动
+dxvkVersion：dxvk版本，也就是当前脚本所初始化的容器使用的是哪个版本的dxvk
+dxvkHUD：这个选项是用于现实dxvk工作状态。
+Regs：注册表，此选项是利用初始化的时候自动往容器注册表内注册需要的值
+Args：其他命令，也就是说在游戏运行的时候可以附加命令，如-no-cef-sandbox此类。
