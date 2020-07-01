@@ -17,14 +17,27 @@
         "rtServer": "ture",
         "dockSystemVersion": "win7"
     },
-    "Env": {},
-    "Libs": [],
+    "Env": {
+        "envKey": "envValue"
+    },
+    "Libs": [
+        "vcrun2013",
+        "vcrun2015",
+        "vcrun2017"
+    ],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
         "dxvkHUD": "false"
     },
-    "Regs": {},
+    "Regs": {
+        "注册表路径": {
+            "key": "value"
+        },
+        "注册表路径2": {
+            "key": "value"
+        }
+    },
     "Args": ""
 }
 option：
@@ -38,5 +51,27 @@ Dxvk：独有的功能，和winetricks内的dxvk存在冲突。vek的dxvk和wine
 dxvkState：dxvk状态，启动or未启动
 dxvkVersion：dxvk版本，也就是当前脚本所初始化的容器使用的是哪个版本的dxvk
 dxvkHUD：这个选项是用于现实dxvk工作状态。
-Regs：注册表，此选项是利用初始化的时候自动往容器注册表内注册需要的值
-Args：其他命令，也就是说在游戏运行的时候可以附加命令，如-no-cef-sandbox此类。
+Regs：注册表，此选项是利用初始化的时候自动往容器注册表内注册需要的值，注册表每一个object只能拥有一个key和值，多个值请分开写
+Args：其他命令，也就是说在游戏运行的时候可以附加命令，如-no-cef-sandbox此类。 多个命令用单空格隔开
+
+以上注册表值option和dxvk为必填，没有则不填写，但是必须保留项目如下：
+范例基础配置:
+{
+    "Option": {
+        "gameName": "XXXX",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "ture",
+        "dockSystemVersion": "win7"
+    },
+    "Env": {},
+    "Libs": [],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {},
+    "Args": ""
+}
