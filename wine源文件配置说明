@@ -1,0 +1,21 @@
+wine源的内容格式如下：
+{
+    "wine5.6-dev": {
+        "wineName": "wine5.6-dev",
+        "wineVersion": "5.6-dev",
+        "wineGit": "https://e.coding.net/JackLee_CN/VekGame.git",
+        "wineDxvk": [
+            "dxvk-1.7"
+        ]
+    },
+    "wine5.7-dev": {
+        "wineName": "wine5.7-dev",
+        "wineVersion": "5.7-dev",
+        "wineGit": "https://e.coding.net/JackLee_CN/VekGame.git",
+        "wineDxvk": [
+            "dxvk-1.7"
+        ]
+    }
+}
+以上信息不可为空，必填
+以上格式表示两个wine版本。在vek中增加自己的wine源则采用xxxx.json的url方式加入。如果json文件放在托管平台，需要获取到托管平台的原始数据访问地址
