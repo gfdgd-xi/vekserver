@@ -1,0 +1,19 @@
+{
+    "Option": {
+        "gameName": "Steam",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "ture",
+        "dockSystemVersion": "win7"
+    },
+    "Env": {},
+    "Libs": [],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {"HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides":""},
+    "Args": "+open steam://open/minigameslist"
+}
