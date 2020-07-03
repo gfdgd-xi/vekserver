@@ -16,7 +16,7 @@
     },
     "Regs": {
         "HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides": {
-            "steamwebhelper.exe": "disable"
+            "steamwebhelper.exe": ""
         }
     },
     "Args": "+open steam://open/minigameslist"
