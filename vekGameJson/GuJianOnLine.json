@@ -6,6 +6,8 @@
         "writeCopy": "true",
         "rtServer": "ture",
         "dockSystemVersion": "win7"
+        "monoState":"false",
+        "geckoState":"false"
     },
     "Env": {},
     "Libs": [
