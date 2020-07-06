@@ -6,11 +6,13 @@
         "writeCopy": "true",
         "rtServer": "true",
         "dockSystemVersion": "win7",
-        "monoState":"true",
-        "geckoState":"true"
+        "monoState": "true",
+        "geckoState": "true"
     },
     "Env": {},
-    "Libs": [],
+    "Libs": [
+        "corefonts"
+    ],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
