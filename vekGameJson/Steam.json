@@ -4,10 +4,10 @@
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",
-        "rtServer": "ture",
+        "rtServer": "true",
         "dockSystemVersion": "win7",
-        "monoState":"false",
-        "geckoState":"false"
+        "monoState":"true",
+        "geckoState":"true"
     },
     "Env": {},
     "Libs": [],
