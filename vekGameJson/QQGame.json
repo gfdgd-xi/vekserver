@@ -11,16 +11,15 @@
         "mainPrcoName": "QQGame.exe"
     },
     "AttachProc": [
-    "vcrun6",
-    "corefonts",
-    "fakechinese",
-    "vcrun2013",
-    "vcrun2015"
     ],
     "Env": {},
     "Libs": 
      [
-      "corefonts"],
+    "vcrun6",
+    "corefonts",
+    "fakechinese",
+    "vcrun2013",
+    "vcrun2015"],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
