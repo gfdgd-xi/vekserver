@@ -1,0 +1,27 @@
+{
+    "Option": {
+        "gameName": "Battle",
+        "defaultFont": "true",
+        "sharedMemory": "false",
+        "writeCopy": "false",
+        "rtServer": "false",
+        "dockSystemVersion": "win7",
+        "monoState": "true",
+        "geckoState": "true",
+        "mainPrcoName": "Battle.net.exe"
+    },
+    "AttachProc": [
+        "Agent.exe"
+    ],
+    "Env": {},
+    "Libs": [],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {
+        
+    },
+    "Args": ""
+}
