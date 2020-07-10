@@ -14,7 +14,9 @@
         "Agent.exe"
     ],
     "Env": {},
-    "Libs": [],
+    "Libs": 
+     [
+      "corefonts"],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",

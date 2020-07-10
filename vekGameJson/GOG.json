@@ -1,0 +1,31 @@
+{
+    "Option": {
+        "gameName": "GOG游戏平台",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "true",
+        "dockSystemVersion": "win7",
+        "monoState": "true",
+        "geckoState": "true",
+        "mainPrcoName":"GalaxyClient.exe"
+    },
+    "AttachProc":[
+     "GOG Galaxy Notifications Renderer.exe",
+     "GalaxyClientService.exe",
+     "GalaxyClient Helper.exe
+    ],
+    "Env": {},
+    "Libs": [
+        "corefonts"
+    ],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {
+    },
+    "Args": ""
+}
+

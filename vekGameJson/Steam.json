@@ -10,7 +10,7 @@
         "geckoState": "true",
         "mainPrcoName":"steam.exe"
     },
-    "AttachProc":[],
+    "AttachProc":["steamwebhelper.exe"],
     "Env": {},
     "Libs": [
         "corefonts"
@@ -27,3 +27,4 @@
     },
     "Args": "+open steam://open/minigameslist"
 }
+
