@@ -11,10 +11,10 @@
         "mainPrcoName": "QQGame.exe"
     },
     "AttachProc": [
-    "vcrun6"
-    "corefonts"
-    "fakechinese"
-    "vcrun2013"
+    "vcrun6",
+    "corefonts",
+    "fakechinese",
+    "vcrun2013",
     "vcrun2015"
     ],
     "Env": {},
