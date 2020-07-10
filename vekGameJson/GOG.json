@@ -13,11 +13,13 @@
     "AttachProc":[
      "GOG Galaxy Notifications Renderer.exe",
      "GalaxyClientService.exe",
-     "GalaxyClient Helper.exe
-    ],
+     "GalaxyClient Helper.exe"
+     ],
     "Env": {},
     "Libs": [
-        "corefonts"
+        "corefonts",
+        "vcrun2013",
+        "vcrun2015"
     ],
     "Dxvk": {
         "dxvkState": "true",
