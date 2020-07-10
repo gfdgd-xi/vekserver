@@ -7,8 +7,10 @@
         "rtServer": "false",
         "dockSystemVersion": "win7",
         "monoState":"true",
-        "geckoState":"true"
+        "geckoState":"true",
+        "mainPrcoName":"googleearth.exe"
     },
+    "AttachProc":[],
     "Env": {},
     "Libs": [],
     "Dxvk": {

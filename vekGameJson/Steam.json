@@ -7,8 +7,10 @@
         "rtServer": "true",
         "dockSystemVersion": "win7",
         "monoState": "true",
-        "geckoState": "true"
+        "geckoState": "true",
+        "mainPrcoName":"steam.exe"
     },
+    "AttachProc":[],
     "Env": {},
     "Libs": [
         "corefonts"

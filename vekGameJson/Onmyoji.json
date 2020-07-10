@@ -7,8 +7,10 @@
         "rtServer": "true",
         "dockSystemVersion": "win7",
         "monoState":"false",
-        "geckoState":"false"
+        "geckoState":"false",
+        "mainPrcoName":"onmyoji.exe"
     },
+    "AttachProc":[],
     "Env": {},
     "Libs": [],
     "Dxvk": {
