@@ -1,0 +1,33 @@
+{
+    "Option": {
+        "gameName": "QQ游戏平台",
+        "defaultFont": "true",
+        "sharedMemory": "false",
+        "writeCopy": "false",
+        "rtServer": "false",
+        "dockSystemVersion": "win7",
+        "monoState": "true",
+        "geckoState": "true",
+        "mainPrcoName": "QQGame.exe"
+    },
+    "AttachProc": [
+    "vcrun6"
+    "corefonts"
+    "fakechinese"
+    "vcrun2013"
+    "vcrun2015"
+    ],
+    "Env": {},
+    "Libs": 
+     [
+      "corefonts"],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": {
+        
+    },
+    "Args": ""
+}
