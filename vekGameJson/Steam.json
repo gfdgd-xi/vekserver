@@ -27,7 +27,7 @@
             "rPath": "HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides",
             "rKey": "steamwebhelper.exe",
             "rTValue": "REG_SZ",
-            "rValue": ""
+            "rValue": " "
         },
         {
             "rPath": "HKEY_CURRENT_USER\\Software\\Valve\\Steam",
