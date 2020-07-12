@@ -33,7 +33,7 @@
             "rPath": "HKEY_CURRENT_USER\\Software\\Valve\\Steam",
             "rKey": "DWriteEnable",
             "rTValue": "REG_DWORD",
-            "rValue": "00000000"
+            "rValue": "0"
         }
     ],
     "Args": "+open steam://open/minigameslist"
