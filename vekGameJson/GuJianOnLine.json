@@ -21,6 +21,6 @@
         "dxvkVersion": "dxvk-1.7",
         "dxvkHUD": "true"
     },
-    "Regs": {},
+    "Regs": [],
     "Args": ""
 }
