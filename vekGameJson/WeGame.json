@@ -1,0 +1,31 @@
+{
+    "Option": {
+        "gameName": "WeGame",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "true",
+        "dockSystemVersion": "win7",
+        "monoState": "true",
+        "geckoState": "true",
+        "mainPrcoName":"wegame.exe"
+    },
+    "AttachProc":["TASLogin.exe",],
+    "Env": {},
+    "Libs": [
+        "corefonts",
+        "fakechinese",
+        "vcrun2013",
+        "vcrun2015"
+    ],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": [],
+    "Args": ""
+}
+
+
+

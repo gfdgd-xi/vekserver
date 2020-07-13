@@ -1,0 +1,34 @@
+{
+    "Option": {
+        "gameName": "爱奇艺PC客户端",
+        "defaultFont": "true",
+        "sharedMemory": "true",
+        "writeCopy": "true",
+        "rtServer": "true",
+        "dockSystemVersion": "win7",
+        "monoState": "true",
+        "geckoState": "true",
+        "mainPrcoName":"QyClient.exe"
+    },
+    "AttachProc":["QyPlayer.exe",
+"QyKernel.exe",
+"QyFragment.exe",],
+    "Env": {},
+    "Libs": [
+        "corefonts",
+        "fakechinese",
+        "vcrun2013",
+        "vcrun2015"
+    ],
+    "Dxvk": {
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7",
+        "dxvkHUD": "false"
+    },
+    "Regs": [],
+    "Args": ""
+}
+
+
+
+
