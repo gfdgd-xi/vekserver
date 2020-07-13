@@ -10,7 +10,7 @@
         "geckoState": "true",
         "mainPrcoName":"wegame.exe"
     },
-    "AttachProc":["TASLogin.exe",],
+    "AttachProc":["TASLogin.exe"],
     "Env": {},
     "Libs": [
         "corefonts",
@@ -26,6 +26,7 @@
     "Regs": [],
     "Args": ""
 }
+
 
 
 
