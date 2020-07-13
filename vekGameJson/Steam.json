@@ -8,9 +8,11 @@
         "dockSystemVersion": "win7",
         "monoState": "true",
         "geckoState": "true",
-        "mainPrcoName":"steam.exe"
+        "mainPrcoName": "steam.exe"
     },
-    "AttachProc":["steamwebhelper.exe"],
+    "AttachProc": [
+        "steamwebhelper.exe"
+    ],
     "Env": {},
     "Libs": [
         "corefonts"
@@ -20,15 +22,19 @@
         "dxvkVersion": "dxvk-1.7",
         "dxvkHUD": "false"
     },
-    "Regs": {
-        "HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides": {
-            "steamwebhelper.exe": ""
+    "Regs": [
+        {
+            "rPath": "HKEY_CURRENT_USER\\Software\\Wine\\DllOverrides",
+            "rKey": "steamwebhelper.exe",
+            "rTValue": "REG_SZ",
+            "rValue": " "
         },
-        "HKEY_CURRENT_USER\\Software\\Valve\\Steam": {
-            "DWriteEnable": "0"
+        {
+            "rPath": "HKEY_CURRENT_USER\\Software\\Valve\\Steam",
+            "rKey": "DWriteEnable",
+            "rTValue": "REG_DWORD",
+            "rValue": "0"
         }
-    },
+    ],
     "Args": "+open steam://open/minigameslist"
 }
-
-
