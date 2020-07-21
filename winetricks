@@ -8319,7 +8319,7 @@ load_dotnet11()
     w_package_unsupported_win64
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=26
-    w_download https://download.microsoft.com/download/a/a/c/aac39226-8825-44ce-90e3-bf8203e74006/dotnetfx.exe ba0e58ec93f2ffd54fc7c627eeca9502e11ab3c6fc85dcbeff113bd61d995bce
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx.exe ba0e58ec93f2ffd54fc7c627eeca9502e11ab3c6fc85dcbeff113bd61d995bce
 
     w_call remove_mono
     w_call corefonts
@@ -8377,7 +8377,7 @@ load_dotnet11sp1()
     # The installer itself doesn't support 64-bit
     w_package_unsupported_win64
 
-    w_download https://download.microsoft.com/download/8/b/4/8b4addd8-e957-4dea-bdb8-c4e00af5b94b/NDP1.1sp1-KB867460-X86.exe 2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP1.1sp1-KB867460-X86.exe 2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a
 
     w_call remove_mono
     w_call dotnet11
@@ -8437,7 +8437,7 @@ load_dotnet20()
 
     if [ "$W_ARCH" = "win32" ]; then
         # https://www.microsoft.com/en-us/download/details.aspx?id=19
-        w_download https://download.lenovo.com/ibmdl/pub/pc/pccbbs/thinkvantage_en/dotnetfx.exe 46693d9b74d12454d117cc61ff2e9481cabb100b4d74eb5367d3cf88b89a0e71
+        w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx.exe 46693d9b74d12454d117cc61ff2e9481cabb100b4d74eb5367d3cf88b89a0e71
 
         # Needed for https://bugs.winehq.org/show_bug.cgi?id=12401
         w_set_winver win2k
@@ -8482,7 +8482,7 @@ load_dotnet20()
         # This affects Victoria 2 demo, see https://forum.paradoxplaza.com/forum/showthread.php?p=11523967
         rm -f "$W_SYSTEM32_DLLS"/msvc?80.dll
     elif [ "$W_ARCH" = "win64" ]; then
-        w_download https://download.microsoft.com/download/a/3/f/a3f1bf98-18f3-4036-9b68-8e6de530ce0a/NetFx64.exe 7ea86dca8eeaedcaa4a17370547ca2cea9e9b6774972b8e03d2cb1fb0e798669
+        w_download https://fancy-brook-66ae.vek.workers.dev/NetFx64.exe 7ea86dca8eeaedcaa4a17370547ca2cea9e9b6774972b8e03d2cb1fb0e798669
 
         # validates successfully in win7 mode wine-3.19, so not setting winversion
         w_try_cd "$W_CACHE"/"$W_PACKAGE"
@@ -8515,7 +8515,7 @@ load_dotnet20sdk()
     w_package_unsupported_win64
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=19988
-    w_download https://download.microsoft.com/download/c/4/b/c4b15d7d-6f37-4d5a-b9c6-8f07e7d46635/setup.exe 1d7337bfbb2c65f43c82d188688ce152af403bcb67a2cc2a3cc68a580ecd8200
+    w_download https://fancy-brook-66ae.vek.workers.dev/setup.exe 1d7337bfbb2c65f43c82d188688ce152af403bcb67a2cc2a3cc68a580ecd8200
 
     w_call remove_mono
 
@@ -8599,14 +8599,14 @@ load_dotnet20sp1()
 
     if [ "$W_ARCH" = "win32" ]; then
         # https://www.microsoft.com/en-us/download/details.aspx?id=16614
-        w_download https://download.microsoft.com/download/0/8/c/08c19fa4-4c4f-4ffb-9d6c-150906578c9e/NetFx20SP1_x86.exe c36c3a1d074de32d53f371c665243196a7608652a2fc6be9520312d5ce560871
+        w_download https://fancy-brook-66ae.vek.workers.dev/NetFx20SP1_x86.exe c36c3a1d074de32d53f371c665243196a7608652a2fc6be9520312d5ce560871
         exe="NetFx20SP1_x86.exe"
 
         w_warn "Setting windows version so installer works"
         w_set_winver win2k
     elif [ "$W_ARCH" = "win64" ]; then
         # https://www.microsoft.com/en-us/download/details.aspx?id=6041
-        w_download https://download.microsoft.com/download/9/8/6/98610406-c2b7-45a4-bdc3-9db1b1c5f7e2/NetFx20SP1_x64.exe 1731e53de5f48baae0963677257660df1329549e81c48b4d7db7f7f3f2329aab
+        w_download https://fancy-brook-66ae.vek.workers.dev/NetFx20SP1_x64.exe 1731e53de5f48baae0963677257660df1329549e81c48b4d7db7f7f3f2329aab
         exe="NetFx20SP1_x64.exe"
 
         w_warn "Setting windows version so installer works"
@@ -8673,11 +8673,11 @@ load_dotnet20sp2()
 
     if [ "$W_ARCH" = "win32" ]; then
         # https://www.microsoft.com/en-us/download/details.aspx?id=1639
-        w_download https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe 6e3f363366e7d0219b7cb269625a75d410a5c80d763cc3d73cf20841084e851f
+        w_download https://fancy-brook-66ae.vek.workers.dev/NetFx20SP2_x86.exe 6e3f363366e7d0219b7cb269625a75d410a5c80d763cc3d73cf20841084e851f
         exe="NetFx20SP2_x86.exe"
     elif [ "$W_ARCH" = "win64" ]; then
         # https://www.microsoft.com/en-us/download/details.aspx?id=1639
-        w_download https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x64.exe
+        w_download https://fancy-brook-66ae.vek.workers.dev/NetFx20SP2_x64.exe
         exe="NetFx20SP2_x64.exe"
     fi
 
@@ -8728,7 +8728,7 @@ load_dotnet30()
     # 2017/04/20: http://descargas.udenar.edu.co/Framework.net/dotnetfx3.exe
     # 2019/08/18: ftp://support.danbit.dk/I/IPP15-C2D/Net%20Framework%203.0/dotnetfx3.exe
     # 2020/04/12: couldn't find a working mirror, so back to archive.org for now:
-    w_download https://web.archive.org/web/20061130220825/http://download.microsoft.com/download/3/F/0/3F0A922C-F239-4B9B-9CB0-DF53621C57D9/dotnetfx3.exe 6cf8921e00f52bbd888aa7a520a7bac47e818e2a850bcc44494c64d6cbfafdac
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx3.exe 6cf8921e00f52bbd888aa7a520a7bac47e818e2a850bcc44494c64d6cbfafdac
 
     w_call remove_mono
 
@@ -8812,9 +8812,9 @@ load_dotnet30sp1()
     w_package_broken_mingw  "https://bugs.winehq.org/show_bug.cgi?id=47484" 4.12.1 4.14
 
     # FIXME: URL?
-    w_download https://download.microsoft.com/download/8/F/E/8FEEE89D-9E4F-4BA3-993E-0FFEA8E21E1B/NetFx30SP1_x86.exe 3100df4d4db3965ead9520c887a534115cf6fc7ba100abde45226958b865695b
+    w_download https://fancy-brook-66ae.vek.workers.dev/NetFx30SP1_x86.exe 3100df4d4db3965ead9520c887a534115cf6fc7ba100abde45226958b865695b
     # Recipe from https://bugs.winehq.org/show_bug.cgi?id=25060#c10
-    w_download https://download.microsoft.com/download/2/5/2/2526f55d-32bc-410f-be18-164ba67ae07d/XPSEP%20XP%20and%20Server%202003%2032%20bit.msi 630c86a202c40cbcd430701977d4f1fefa6151624ef9a4870040dff45e547dea "XPSEP XP and Server 2003 32 bit.msi"
+    w_download https://fancy-brook-66ae.vek.workers.dev/XPSEP%20XP%20and%20Server%202003%2032%20bit.msi 630c86a202c40cbcd430701977d4f1fefa6151624ef9a4870040dff45e547dea "XPSEP XP and Server 2003 32 bit.msi"
 
     w_call remove_mono
     w_call dotnet30
@@ -8875,7 +8875,7 @@ load_dotnet35()
     w_verify_cabextract_available
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=21
-    w_download https://download.microsoft.com/download/6/0/f/60fc5854-3cb8-4892-b6db-bd4f42510f28/dotnetfx35.exe 3e3a4104bad9a0c270ed5cbe8abb986de9afaf0281a98998bdbdc8eaab85c3b6
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx35.exe 3e3a4104bad9a0c270ed5cbe8abb986de9afaf0281a98998bdbdc8eaab85c3b6
 
     w_call remove_mono
 
@@ -8921,7 +8921,7 @@ load_dotnet35sp1()
     w_verify_cabextract_available
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=25150
-    w_download https://download.microsoft.com/download/2/0/e/20e90413-712f-438c-988e-fdaa79a8ac3d/dotnetfx35.exe 0582515bde321e072f8673e829e175ed2e7a53e803127c50253af76528e66bc1
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx35.exe 0582515bde321e072f8673e829e175ed2e7a53e803127c50253af76528e66bc1
 
     w_call remove_mono
 
@@ -8964,7 +8964,7 @@ load_dotnet40()
     fi
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=17718
-    w_download https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe 65e064258f2e418816b304f646ff9e87af101e4c9552ab064bb74d281c38659f
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotNetFx40_Full_x86_x64.exe 65e064258f2e418816b304f646ff9e87af101e4c9552ab064bb74d281c38659f
 
     w_call remove_mono
 
@@ -9005,10 +9005,10 @@ load_dotnet40_kb2468871()
 
     # Install KB2468871:
     if [ "$W_ARCH" = "win32" ]; then
-        w_download https://download.microsoft.com/download/2/B/F/2BF4D7D1-E781-4EE0-9E4F-FDD44A2F8934/NDP40-KB2468871-v2-x86.exe 8822672fc864544e0766c80b635973bd9459d719b1af75f51483ff36cfb26f03
+        w_download https://fancy-brook-66ae.vek.workers.dev/NDP40-KB2468871-v2-x86.exe 8822672fc864544e0766c80b635973bd9459d719b1af75f51483ff36cfb26f03
         w_try_7z "$W_TMP" "${W_CACHE}/${W_PACKAGE}/NDP40-KB2468871-v2-x86.exe" NDP40-KB2468871.msp
     elif [ "$W_ARCH" = "win64" ]; then
-        w_download https://download.microsoft.com/download/2/B/F/2BF4D7D1-E781-4EE0-9E4F-FDD44A2F8934/NDP40-KB2468871-v2-x64.exe b1b53c3953377b111fe394dd57592d342cfc8a3261a5575253b211c1c2e48ff8
+        w_download https://fancy-brook-66ae.vek.workers.dev/NDP40-KB2468871-v2-x64.exe b1b53c3953377b111fe394dd57592d342cfc8a3261a5575253b211c1c2e48ff8
         w_try_7z "$W_TMP" "${W_CACHE}/${W_PACKAGE}/NDP40-KB2468871-v2-x64.exe" NDP40-KB2468871.msp
     fi
 
@@ -9041,7 +9041,7 @@ load_dotnet45()
     w_verify_cabextract_available
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=17718
-    w_download https://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotnetfx45_full_x86_x64.exe a04d40e217b97326d46117d961ec4eda455e087b90637cb33dd6cc4a2c228d83
+    w_download https://fancy-brook-66ae.vek.workers.dev/dotnetfx45_full_x86_x64.exe a04d40e217b97326d46117d961ec4eda455e087b90637cb33dd6cc4a2c228d83
 
     w_call remove_mono
 
@@ -9085,7 +9085,7 @@ load_dotnet452()
     w_verify_cabextract_available
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=17718
-    w_download https://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 6c2c589132e830a185c5f40f82042bee3022e721a216680bd9b3995ba86f3781
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 6c2c589132e830a185c5f40f82042bee3022e721a216680bd9b3995ba86f3781
 
     w_call remove_mono
 
@@ -9127,7 +9127,7 @@ load_dotnet46()
     w_package_warn_win64
 
     # https://support.microsoft.com/kb/3045560
-    w_download https://download.microsoft.com/download/C/3/A/C3A5200B-D33C-47E9-9D70-2F7C65DAAD94/NDP46-KB3045557-x86-x64-AllOS-ENU.exe b21d33135e67e3486b154b11f7961d8e1cfd7a603267fb60febb4a6feab5cf87
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP46-KB3045557-x86-x64-AllOS-ENU.exe b21d33135e67e3486b154b11f7961d8e1cfd7a603267fb60febb4a6feab5cf87
 
     w_call remove_mono
 
@@ -9170,7 +9170,7 @@ load_dotnet461()
     w_package_warn_win64
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=49982
-    w_download https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe beaa901e07347d056efe04e8961d5546c7518fab9246892178505a7ba631c301
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP461-KB3102436-x86-x64-AllOS-ENU.exe beaa901e07347d056efe04e8961d5546c7518fab9246892178505a7ba631c301
 
     w_call remove_mono
 
@@ -9207,7 +9207,7 @@ load_dotnet462()
     w_package_warn_win64
 
     # Official version. See https://www.microsoft.com/en-us/download/details.aspx?id=53344
-    w_download https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe 28886593e3b32f018241a4c0b745e564526dbb3295cb2635944e3a393f4278d4
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP462-KB3151800-x86-x64-AllOS-ENU.exe 28886593e3b32f018241a4c0b745e564526dbb3295cb2635944e3a393f4278d4
     file_package="NDP462-KB3151800-x86-x64-AllOS-ENU.exe"
     unattended_args="/sfxlang:1027 /q /norestart"
 
@@ -9248,7 +9248,7 @@ load_dotnet471()
     w_package_warn_win64
 
     # https://www.microsoft.com/en-US/download/details.aspx?id=56116
-    w_download https://download.microsoft.com/download/9/E/6/9E63300C-0941-4B45-A0EC-0008F96DD480/NDP471-KB4033342-x86-x64-AllOS-ENU.exe 63dc850df091f3f137b5d4392f47917f847f8926dc8af1da9bfba6422e495805
+    w_download https://fancy-brook-66ae.vek.workers.dev/NDP471-KB4033342-x86-x64-AllOS-ENU.exe 63dc850df091f3f137b5d4392f47917f847f8926dc8af1da9bfba6422e495805
     unattended_args="/sfxlang:1027 /q /norestart"
 
     w_call remove_mono
@@ -9288,11 +9288,11 @@ load_dotnet472()
     if w_workaround_wine_bug 42170 "Running un-official repacked .NET 4.7.2 setup until the official version is fixed.", 3.1; then
         # Un-official slim version. See https://repacks.net/forum/viewtopic.php?t=7
         file_package="dotNetFx472_Full_x86_x64_Slim.exe"
-        w_download "https://drive.google.com/uc?export=download&id=1aLBCH0Yt2-6ROpWRBxZ01kqGMyhc_8hM&confirm" a36da041b8f46079f8e16647312d642953cde520f4a600ad5b3f4f90a23495a7 $file_package
+        w_download "https://fancy-brook-66ae.vek.workers.dev/dotNetFx472_Slim_x86_x64.exe" a36da041b8f46079f8e16647312d642953cde520f4a600ad5b3f4f90a23495a7 $file_package
         unattended_args="/ai /gm2"
     else
         # Official version. See https://www.microsoft.com/en-us/download/details.aspx?id=53344
-        w_download https://download.microsoft.com/download/6/E/4/6E48E8AB-DC00-419E-9704-06DD46E5F81D/NDP472-KB4054530-x86-x64-AllOS-ENU.exe c908f0a5bea4be282e35acba307d0061b71b8b66ca9894943d3cbb53cad019bc
+        w_download https://fancy-brook-66ae.vek.workers.dev/NDP472-KB4054530-x86-x64-AllOS-ENU.exe c908f0a5bea4be282e35acba307d0061b71b8b66ca9894943d3cbb53cad019bc
         file_package="NDP472-KB4054530-x86-x64-AllOS-ENU.exe"
         unattended_args="/sfxlang:1027 /q /norestart"
     fi
@@ -9333,7 +9333,7 @@ load_dotnet48()
     w_package_warn_win64
 
     # Official version. See https://dotnet.microsoft.com/download/dotnet-framework/net48
-    w_download https://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/abd170b4b0ec15ad0222a809b761a036/ndp48-x86-x64-allos-enu.exe 95889d6de3f2070c07790ad6cf2000d33d9a1bdfc6a381725ab82ab1c314fd53
+    w_download https://fancy-brook-66ae.vek.workers.dev/ndp48-x86-x64-allos-enu.exe 95889d6de3f2070c07790ad6cf2000d33d9a1bdfc6a381725ab82ab1c314fd53
     unattended_args="/sfxlang:1027 /q /norestart"
 
     w_call remove_mono
@@ -9373,7 +9373,7 @@ load_dotnet_verifier()
     # 2017/06/12: sha256sum 310a0341fbe68f5b8601f2d8deef5d05ca6bce50df03912df391bc843794ef60, adds .NET Framework 4.7 support
     # 2018/06/03: sha256sum 13fd683fd604f9de09a9e649df303100b81e6797f868024d55e5c2f3c14aa9a6, adds .NET Framework 4.7.{1,2} support
 
-    w_download https://msdnshared.blob.core.windows.net/media/2018/05/netfx_setupverifier_new.zip 13fd683fd604f9de09a9e649df303100b81e6797f868024d55e5c2f3c14aa9a6
+    w_download https://fancy-brook-66ae.vek.workers.dev/netfx_setupverifier_new.zip 13fd683fd604f9de09a9e649df303100b81e6797f868024d55e5c2f3c14aa9a6
 
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try_unzip "$W_SYSTEM32_DLLS" netfx_setupverifier_new.zip netfx_setupverifier.exe
@@ -9394,7 +9394,7 @@ w_metadata dx8vb dlls \
 load_dx8vb()
 {
     # https://www.microsoft.com/de-de/download/details.aspx?id=10968
-    w_download https://download.microsoft.com/download/win2000pro/dx/8.1/NT5/DE/DX81NTger.exe 31513966a29dc100165072891d21b5c5e0dd2632abf3409a843cefb3a9886f13
+    w_download https://fancy-brook-66ae.vek.workers.dev/DX81NTger.exe 31513966a29dc100165072891d21b5c5e0dd2632abf3409a843cefb3a9886f13
 
     w_try_cabextract -d "$W_SYSTEM32_DLLS" -F dx8vb.dll "$W_CACHE/$W_PACKAGE"/DX81NTger.exe
 
@@ -9537,7 +9537,7 @@ w_metadata faudio1901 dlls \
 
 load_faudio1901()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.01/faudio-19.01.tar.xz f3439090ba36061ee47ebda93e409ae4b2d8886c780c86a197c66ff08b9b573f
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.01.tar.xz f3439090ba36061ee47ebda93e409ae4b2d8886c780c86a197c66ff08b9b573f
     helper_faudio "$file1"
 }
 
@@ -9553,7 +9553,7 @@ w_metadata faudio1902 dlls \
 
 load_faudio1902()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.02/faudio-19.02.tar.xz 849fec35482748a2b441d8dd7e9a171c7c5c2207d1037c7ffd0265e65f2a4b2b
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.02.tar.xz 849fec35482748a2b441d8dd7e9a171c7c5c2207d1037c7ffd0265e65f2a4b2b
     helper_faudio "$file1"
 }
 
@@ -9569,7 +9569,7 @@ w_metadata faudio1903 dlls \
 
 load_faudio1903()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.03/faudio-19.03.tar.xz d5c62437fd5b185e82f464f6a82334af5d666cb506aba218358ea7a3697fdf63
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.03.tar.xz d5c62437fd5b185e82f464f6a82334af5d666cb506aba218358ea7a3697fdf63
     helper_faudio "$file1"
 }
 
@@ -9585,7 +9585,7 @@ w_metadata faudio1904 dlls \
 
 load_faudio1904()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.04/faudio-19.04.tar.xz c364db1a18bfb6f6c0f375c641672ca40140b8e5db69dc2c8c9b41d79d0fc56f
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.04.tar.xz c364db1a18bfb6f6c0f375c641672ca40140b8e5db69dc2c8c9b41d79d0fc56f
     helper_faudio "$file1"
 }
 
@@ -9601,7 +9601,7 @@ w_metadata faudio1905 dlls \
 
 load_faudio1905()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.05/faudio-19.05.tar.xz 94b44c43c0b2260f8061dd699292c8d58ce56fae330a53314417804df4f5f723
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.05.tar.xz 94b44c43c0b2260f8061dd699292c8d58ce56fae330a53314417804df4f5f723
     helper_faudio "$file1"
 }
 
@@ -9617,7 +9617,7 @@ w_metadata faudio1906 dlls \
 
 load_faudio1906()
 {
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.06/faudio-19.06.tar.xz 87639e30f9e913685829e05b925809598409e54c4c51e3d74b977cedd658aaf3
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.06.tar.xz 87639e30f9e913685829e05b925809598409e54c4c51e3d74b977cedd658aaf3
     helper_faudio "$file1"
 }
 
@@ -9636,7 +9636,7 @@ load_faudio190607()
     # Starting in 19.06.07; before that ships them, but they're supposedly broken
     w_package_unsupported_win32
 
-    w_download https://github.com/Kron4ek/FAudio-Builds/releases/download/19.06.07/faudio-19.06.07.tar.xz e17e3a9dadeb1017dc369fe0d46c3d1945ebceadb7ad2f94a3a1448435ab3f6c
+    w_download https://fancy-brook-66ae.vek.workers.dev/faudio-19.06.07.tar.xz e17e3a9dadeb1017dc369fe0d46c3d1945ebceadb7ad2f94a3a1448435ab3f6c
     helper_faudio "$file1"
 }
 #----------------------------------------------------------------
@@ -9791,7 +9791,7 @@ w_metadata galliumnine02 dlls \
 
 load_galliumnine02()
 {
-    w_download "https://github.com/iXit/wine-nine-standalone/releases/download/v0.2/gallium-nine-standalone-v0.2.tar.gz" 6818fe890e343aa32d3d53179bfeb63df40977797bd7b6263e85e2bb57559313
+    w_download "https://fancy-brook-66ae.vek.workers.dev/gallium-nine-standalone-v0.2.tar.gz" 6818fe890e343aa32d3d53179bfeb63df40977797bd7b6263e85e2bb57559313
     helper_galliumnine "$file1"
 }
 
@@ -9807,7 +9807,7 @@ w_metadata galliumnine03 dlls \
 
 load_galliumnine03()
 {
-    w_download "https://github.com/iXit/wine-nine-standalone/releases/download/v0.3/gallium-nine-standalone-v0.3.tar.gz" 8bb564073ab2198e5b9b870f7b8cac8d9bc20bc6accf66c4c798e4b450ec0c91
+    w_download "https://fancy-brook-66ae.vek.workers.dev/gallium-nine-standalone-v0.3.tar.gz" 8bb564073ab2198e5b9b870f7b8cac8d9bc20bc6accf66c4c798e4b450ec0c91
     helper_galliumnine "$file1"
 }
 
@@ -9823,7 +9823,7 @@ w_metadata galliumnine04 dlls \
 
 load_galliumnine04()
 {
-    w_download "https://github.com/iXit/wine-nine-standalone/releases/download/v0.4/gallium-nine-standalone-v0.4.tar.gz" 4423c32d46419830c8e68fea86d28e740f17f182c365250c379b5493176e19ab
+    w_download "https://fancy-brook-66ae.vek.workers.dev/gallium-nine-standalone-v0.4.tar.gz" 4423c32d46419830c8e68fea86d28e740f17f182c365250c379b5493176e19ab
     helper_galliumnine "$file1"
 }
 
@@ -9839,7 +9839,7 @@ w_metadata galliumnine05 dlls \
 
 load_galliumnine05()
 {
-    w_download "https://github.com/iXit/wine-nine-standalone/releases/download/v0.5/gallium-nine-standalone-v0.5.tar.gz" c46e06b13a3ba0adee75b27a8b54e9d772f83ed29dee5e203364460771fb1bcd
+    w_download "https://fancy-brook-66ae.vek.workers.dev/gallium-nine-standalone-v0.5.tar.gz" c46e06b13a3ba0adee75b27a8b54e9d772f83ed29dee5e203364460771fb1bcd
     helper_galliumnine "$file1"
 }
 
@@ -9898,7 +9898,7 @@ w_metadata gdiplus_winxp dlls \
 load_gdiplus_winxp()
 {
     # https://www.microsoft.com/en-us/download/details.aspx?id=5339
-    w_download https://web.archive.org/web/20140615000000/http://download.microsoft.com/download/a/b/c/abc45517-97a0-4cee-a362-1957be2f24e1/WindowsXP-KB975337-x86-ENU.exe 699e76e9f100db3d50da8762c484a369df4698d4b84f7821d4df0e37ce68bcbe
+    w_download https://fancy-brook-66ae.vek.workers.dev/WindowsXP-KB975337-x86-ENU.exe 699e76e9f100db3d50da8762c484a369df4698d4b84f7821d4df0e37ce68bcbe
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try_cabextract -d "$W_TMP" -F _sfx_0005._p "$W_CACHE/${W_PACKAGE}/$file1"
     w_try cp "$W_TMP/_sfx_0005._p" "$W_SYSTEM32_DLLS/gdiplus.dll"
@@ -9919,7 +9919,7 @@ w_metadata glidewrapper dlls \
 
 load_glidewrapper()
 {
-    w_download http://www.zeckensack.de/glide/archive/GlideWrapper084c.exe 3c4185bd7eac9bd50e0727a7b5165ec8273230455480cf94358e1bbd35921b69
+    w_download https://fancy-brook-66ae.vek.workers.dev/GlideWrapper084c.exe 3c4185bd7eac9bd50e0727a7b5165ec8273230455480cf94358e1bbd35921b69
     w_try_cd "$W_CACHE/$W_PACKAGE"
 
     # The installer opens its README in a web browser, really annoying when doing make check/test:
@@ -9958,7 +9958,7 @@ load_gfw()
 {
     # https://www.microsoft.com/games/en-us/live/pages/livejoin.aspx
     # http://www.next-gen.biz/features/should-games-for-windows-live-die
-    w_download https://download.microsoft.com/download/5/5/8/55846E20-4A46-4EF8-B272-7F988BC9090A/gfwlivesetupmin.exe b14609508e2f8dba0886ded84e2817ad532ebfa31f8a6d4be2e6a5a03a9d7c23
+    w_download https://fancy-brook-66ae.vek.workers.dev/gfwlivesetupmin.exe b14609508e2f8dba0886ded84e2817ad532ebfa31f8a6d4be2e6a5a03a9d7c23
 
     # FIXME: Depends on .NET 20, but is it really needed? For now, skip it.
     w_try_cd "$W_CACHE/$W_PACKAGE"
@@ -9979,7 +9979,7 @@ w_metadata glut dlls \
 
 load_glut()
 {
-    w_download https://press.liacs.nl/researchdownloads/glut.win32/glut-3.7.6-bin.zip 788e97653bfd527afbdc69e1b7c6bcf9cb45f33d13ddf9d676dc070da92f80d4
+    w_download https://fancy-brook-66ae.vek.workers.dev/glut-3.7.6-bin.zip 788e97653bfd527afbdc69e1b7c6bcf9cb45f33d13ddf9d676dc070da92f80d4
     # FreeBSD unzip rm -rf's inside the target directory before extracting:
     w_try_unzip "$W_TMP" "$W_CACHE"/glut/glut-3.7.6-bin.zip
     w_try mv "$W_TMP/glut-3.7.6-bin" "$W_DRIVE_C"
@@ -10041,7 +10041,7 @@ w_metadata dirac dlls \
 
 load_dirac()
 {
-    w_download https://downloads.sourceforge.net/dirac/DiracDirectShowFilter-1.0.2.exe 7257de4be940405637bb5d11c1179f7db86f165f21fc0ba24f42a9ecbc55fe20
+    w_download https://fancy-brook-66ae.vek.workers.dev/DiracDirectShowFilter-1.0.2.exe 7257de4be940405637bb5d11c1179f7db86f165f21fc0ba24f42a9ecbc55fe20
 
     # Avoid mfc90 not found error.  (DiracSplitter-libschroedinger.ax needs mfc90 to register itself, I think.)
     w_call vcrun2008
@@ -10086,7 +10086,7 @@ w_metadata ffdshow dlls \
 
 load_ffdshow()
 {
-    w_download https://downloads.sourceforge.net/ffdshow-tryout/ffdshow_beta7_rev3154_20091209.exe 86fb22e9a79a1c83340a99fd5722974a4d03948109d404a383c4334fab8f8860
+    w_download https://fancy-brook-66ae.vek.workers.dev/ffdshow_beta7_rev3154_20091209.exe 86fb22e9a79a1c83340a99fd5722974a4d03948109d404a383c4334fab8f8860
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try "$WINE" ffdshow_beta7_rev3154_20091209.exe $W_UNATTENDED_SLASH_SILENT
 }
@@ -10126,7 +10126,7 @@ load_icodecs()
     # Original source, ftp://download.intel.com/support/createshare/camerapack/codinstl.exe, had same checksum
     # 2010/11/14: http://codec.alshow.co.kr/Down/codinstl.exe
     # 2014/04/11: http://www.cucusoft.com/codecdownload/codinstl.exe (linked from http://www.cucusoft.com/codec.asp)
-    w_download "http://www.cucusoft.com/codecdownload/codinstl.exe" 0979d43568111cadf0b3bf43cd8d746ac3de505759c14f381592b4f8439f6c95
+    w_download "https://fancy-brook-66ae.vek.workers.dev/codinstl.exe" 0979d43568111cadf0b3bf43cd8d746ac3de505759c14f381592b4f8439f6c95
 
     # Extract the installer so that we can use the included Install Shield
     # response file for unattended installations
@@ -10141,7 +10141,7 @@ load_icodecs()
 
     # Apparently some codecs are missing, see https://github.com/Winetricks/winetricks/issues/302
     # Download at https://www.moviecodec.com/download-codec-packs/indeo-codecs-legacy-package-31/
-    w_download https://s3.amazonaws.com/moviecodec/files/iv5setup.exe 51bec25488b5b94eb3ce49b0a117618c9526161fd0753817a7a724ce25ff0cad
+    w_download https://fancy-brook-66ae.vek.workers.dev/iv5setup.exe 51bec25488b5b94eb3ce49b0a117618c9526161fd0753817a7a724ce25ff0cad
 
     # Extract the installer so that we can create and use a pre-recorded
     # Install Shield response file for unattended installations
@@ -10299,7 +10299,7 @@ w_metadata cinepak dlls \
 
 load_cinepak()
 {
-    w_download "http://www.probo.com/pub/cinepak/cvid32.zip" a41984a954fe77557f228fa8a95cdc05db22bf9ff5429fe4307fd6fc51e11969
+    w_download "https://fancy-brook-66ae.vek.workers.dev/cvid32.zip" a41984a954fe77557f228fa8a95cdc05db22bf9ff5429fe4307fd6fc51e11969
 
     if [ -f "$W_SYSTEM32_DLLS/iccvid.dll" ]; then
         w_try rm -f "$W_SYSTEM32_DLLS/iccvid.dll"
@@ -10335,7 +10335,7 @@ load_jet40()
     # https://support.microsoft.com/kb/239114
     # See also https://bugs.winehq.org/show_bug.cgi?id=6085
     # FIXME: "failed with error 2"
-    w_download https://download.microsoft.com/download/4/3/9/4393c9ac-e69e-458d-9f6d-2fe191c51469/jet40sp8_9xnt.exe b060246cd499085a31f15873689d5fa7df817e407c8261a5c71fa6b9f7042560
+    w_download https://fancy-brook-66ae.vek.workers.dev/jet40sp8_9xnt.exe b060246cd499085a31f15873689d5fa7df817e407c8261a5c71fa6b9f7042560
 
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try "$WINE" jet40sp8_9xnt.exe $W_UNATTENDED_SLASH_Q
@@ -10363,7 +10363,7 @@ load_ie8_kb2936068()
 
     w_call ie8
 
-    w_download https://download.microsoft.com/download/3/8/C/38CE0ABB-01FD-4C0A-A569-BC5E82C34A17/IE8-WindowsXP-KB2936068-x86-ENU.exe 8bda23c78cdcd9d01c364a01c6d639dfb2d11550a5521b8a81c808c1a2b1824e
+    w_download https://fancy-brook-66ae.vek.workers.dev/IE8-WindowsXP-KB2936068-x86-ENU.exe 8bda23c78cdcd9d01c364a01c6d639dfb2d11550a5521b8a81c808c1a2b1824e
 
     if [ -n "$W_UNATTENDED_SLASH_Q" ]; then
         quiet="$W_UNATTENDED_SLASH_QUIET /forcerestart"
@@ -10410,7 +10410,7 @@ w_metadata mdac27 dlls \
     publisher="Microsoft" \
     year="2006" \
     media="download" \
-    file1="MDAC_TYP.EXE" \
+    file1="MDAC_TYP_mdac27.EXE" \
     installed_file1="$W_COMMONFILES_X86_WIN/System/ADO/msado26.tlb"
 
 load_mdac27()
@@ -10421,7 +10421,7 @@ load_mdac27()
     # Originally at: https://download.microsoft.com/download/3/b/f/3bf74b01-16ba-472d-9a8c-42b2b4fa0d76/mdac_typ.exe
     # Mirror list: http://www.filewatcher.com/m/MDAC_TYP.EXE.5389224-0.html (5.14 MB MDAC_TYP.EXE)
     # 2018/08/09: ftp.gunadarma.ac.id is dead, moved to archive.org
-    w_download https://web.archive.org/web/20060718123742/http://ftp.gunadarma.ac.id/pub/driver/itegno/USB%20Software/MDAC/MDAC_TYP.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
+    w_download https://fancy-brook-66ae.vek.workers.dev/MDAC_TYP_mdac27.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
 
     load_native_mdac
     w_set_winver nt40
@@ -10437,13 +10437,13 @@ w_metadata mdac28 dlls \
     publisher="Microsoft" \
     year="2005" \
     media="download" \
-    file1="MDAC_TYP.EXE" \
+    file1="MDAC_TYP_mdac28.EXE" \
     installed_file1="$W_COMMONFILES_X86_WIN/System/ADO/msado27.tlb"
 
 load_mdac28()
 {
     # https://www.microsoft.com/en-us/download/details.aspx?id=5793
-    w_download https://download.microsoft.com/download/4/a/a/4aafff19-9d21-4d35-ae81-02c48dcbbbff/MDAC_TYP.EXE 157ebae46932cb9047b58aa849ac1885e8cbd2f218810cb83e57613b49c679d6
+    w_download https://fancy-brook-66ae.vek.workers.dev/MDAC_TYP_mdac28.EXE 157ebae46932cb9047b58aa849ac1885e8cbd2f218810cb83e57613b49c679d6
     load_native_mdac
     w_set_winver nt40
     w_try_cd "$W_CACHE"/"$W_PACKAGE"
@@ -10670,7 +10670,7 @@ load_msdxmocx()
     # http://zerosky.oldos.org/win9x.html
     # https://sdfox7.com/win95/
 
-    w_download http://hell.pl/agnus/windows95/mpfull.exe a39b2b9735cedd513fcb78f8634695d35073e9d7e865e536a0da6db38c7225e4
+    w_download https://fancy-brook-66ae.vek.workers.dev/mpfull.exe a39b2b9735cedd513fcb78f8634695d35073e9d7e865e536a0da6db38c7225e4
 
     w_try_cabextract --directory="$W_SYSTEM32_DLLS" "$W_CACHE/$W_PACKAGE/${file1}"
     w_try_regsvr msdxm.ocx
@@ -10760,7 +10760,7 @@ load_msls31()
     # Needed by native RichEdit and Internet Explorer
     # Originally at https://download.microsoft.com/download/WindowsInstaller/Install/2.0/NT45/EN-US/InstMsiW.exe
     # Mirror list at http://www.filewatcher.com/m/InstMsiW.exe.1822848-0.html
-    w_download https://ftp.hp.com/pub/softlib/software/msi/InstMsiW.exe 4c3516c0b5c2b76b88209b22e3bf1cb82d8e2de7116125e97e128952372eed6b InstMsiW.exe
+    w_download https://fancy-brook-66ae.vek.workers.dev/InstMsiW.exe 4c3516c0b5c2b76b88209b22e3bf1cb82d8e2de7116125e97e128952372eed6b InstMsiW.exe
 
     w_try_cabextract --directory="$W_TMP" "$W_CACHE"/msls31/InstMsiW.exe
     w_try cp -f "$W_TMP"/msls31.dll "$W_SYSTEM32_DLLS"
@@ -10897,7 +10897,7 @@ load_msxml6()
     # https://www.microsoft.com/en-us/download/details.aspx?id=9774
 
     # 64bit exe also includes 32bit dlls
-    w_download https://download.microsoft.com/download/1/5/8/158F681A-E595-472B-B15E-62B649B1B6FF/msxml6-KB973686-enu-amd64.exe 4a64a90774a82fb59b9812ac9754b834c82282aa
+    w_download https://fancy-brook-66ae.vek.workers.dev/msxml6-KB973686-enu-amd64.exe 4a64a90774a82fb59b9812ac9754b834c82282aa
 
     w_try_cabextract --directory="${W_TMP}" "${W_CACHE}"/msxml6/msxml6-KB973686-enu-amd64.exe
     w_try_cabextract --directory="${W_TMP}" "${W_TMP}"/msxml6.msi
@@ -10945,7 +10945,7 @@ w_metadata ogg dlls \
 
 load_ogg()
 {
-    w_download https://downloads.xiph.org/releases/oggdsf/opencodecs_0.85.17777.exe fcec3cea637e806501aff447d902de3b5bfef226b629e43ab67e46dbb23f13e7
+    w_download https://fancy-brook-66ae.vek.workers.dev/opencodecs_0.85.17777.exe fcec3cea637e806501aff447d902de3b5bfef226b629e43ab67e46dbb23f13e7
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try "$WINE" "$file1" $W_UNATTENDED_SLASH_S
 }
