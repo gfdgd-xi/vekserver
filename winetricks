@@ -1157,7 +1157,7 @@ winetricks_selfupdate()
     _W_tmpdir=${TMPDIR:-/tmp}
     _W_tmpdir="$(mktemp -d "$_W_tmpdir/$_W_filename.XXXXXXXX")"
 
-    w_download_to "$_W_tmpdir" https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks "" "$_W_filename"
+    w_download_to "$_W_tmpdir" https://gitee.com/JackLee02/vekGame/raw/master/winetricks "" "$_W_filename"
 
     # 2016/10/26: now file is uncompressed? Handle both cases:
     update_file_type="$(file "$_W_tmpdir/$_W_filename")"
@@ -5846,9 +5846,9 @@ load_cmd()
 
 w_metadata cnc_ddraw dlls \
     title="Reimplentation of ddraw for CnC games" \
-    homepage="https://github.com/CnCNet/cnc-ddraw" \
+    homepage="https://fancy-brook-66ae.vek.workers.dev/cnc-ddraw" \
     publisher="CnCNet" \
-    year="2018" \
+    year="2020" \
     media="download" \
     file1="cnc-ddraw.zip" \
     installed_file1="$W_SYSTEM32_DLLS_WIN/Shaders/readme.txt"
@@ -5956,9 +5956,9 @@ load_crypt32()
 w_metadata binkw32 dlls \
     title="RAD Game Tools binkw32.dll" \
     publisher="RAD Game Tools, Inc." \
-    year="2000" \
+    year="2020" \
     media="download" \
-    file1="__32-binkw32.dll3.0.0.0.zip" \
+    file1="binkw32.zip" \
     installed_file1="$W_SYSTEM32_DLLS_WIN/binkw32.dll"
 
 load_binkw32()
@@ -5969,9 +5969,9 @@ load_binkw32()
     # Zip sha256sum:
     # 2015/12/27: 1d5efda8e4af796319b94034ba67b453cbbfddd81eb7d94fd059b40e237fa75d
 
-    w_download http://www.down-dll.com/dll/b/__32-binkw32.dll3.0.0.0.zip 1d5efda8e4af796319b94034ba67b453cbbfddd81eb7d94fd059b40e237fa75d
+    w_download https://fancy-brook-66ae.vek.workers.dev/binkw32.zip 1d5efda8e4af796319b94034ba67b453cbbfddd81eb7d94fd059b40e237fa75d
 
-    w_try_unzip "$W_TMP" "$W_CACHE"/binkw32/__32-binkw32.dll3.0.0.0.zip
+    w_try_unzip "$W_TMP" "$W_CACHE"/binkw32/binkw32.zip
     w_try cp "$W_TMP"/binkw32.dll "$W_SYSTEM32_DLLS"/binkw32.dll
 
     w_override_dlls native binkw32
@@ -6055,12 +6055,12 @@ load_d3dcompiler_47()
 {
     # FIXME: would be awesome to find a small download that has both 32/64bit dlls, but this works for now:
 
-    w_download https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win32/ach/Firefox%20Setup%2062.0.3.exe "d6edb4ff0a713f417ebd19baedfe07527c6e45e84a6c73ed8c66a33377cc0aca" "FirefoxSetup62.0.3-win32.exe"
+    w_download https://fancy-brook-66ae.vek.workers.dev/Firefox%20Setup%2062.0.3.exe "d6edb4ff0a713f417ebd19baedfe07527c6e45e84a6c73ed8c66a33377cc0aca" "FirefoxSetup62.0.3-win32.exe"
     w_try_7z "$W_TMP/win32" "$W_CACHE/d3dcompiler_47/FirefoxSetup62.0.3-win32.exe" "core/d3dcompiler_47.dll"
     w_try cp "$W_TMP/win32/core/d3dcompiler_47.dll" "$W_SYSTEM32_DLLS/d3dcompiler_47.dll"
 
     if [ "$W_ARCH" = "win64" ]; then
-        w_download https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win64/ach/Firefox%20Setup%2062.0.3.exe "721977f36c008af2b637aedd3f1b529f3cfed6feb10f68ebe17469acb1934986" "FirefoxSetup62.0.3-win64.exe"
+        w_download https://fancy-brook-66ae.vek.workers.dev/Firefox%20Setup%2062.0.3.exe "721977f36c008af2b637aedd3f1b529f3cfed6feb10f68ebe17469acb1934986" "FirefoxSetup62.0.3-win64.exe"
         w_try_7z "$W_TMP/win64" "$W_CACHE/d3dcompiler_47/FirefoxSetup62.0.3-win64.exe" "core/d3dcompiler_47.dll"
         w_try cp "$W_TMP/win64/core/d3dcompiler_47.dll" "$W_SYSTEM64_DLLS/d3dcompiler_47.dll"
     fi
