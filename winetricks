@@ -5969,7 +5969,7 @@ load_binkw32()
     # Zip sha256sum:
     # 2015/12/27: 1d5efda8e4af796319b94034ba67b453cbbfddd81eb7d94fd059b40e237fa75d
 
-    w_download https://fancy-brook-66ae.vek.workers.dev/binkw32.zip 1d5efda8e4af796319b94034ba67b453cbbfddd81eb7d94fd059b40e237fa75d
+    w_download https://fancy-brook-66ae.vek.workers.dev/binkw32.zip f018823193df21aca65ebef27b9c2a5f32ac299d91014f33c79198fe6f9890d5
 
     w_try_unzip "$W_TMP" "$W_CACHE"/binkw32/binkw32.zip
     w_try cp "$W_TMP"/binkw32.dll "$W_SYSTEM32_DLLS"/binkw32.dll
