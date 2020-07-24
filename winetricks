@@ -5006,10 +5006,10 @@ winetricks_set_wineprefix()
         W_COMMONFILES="$(w_pathconv -u "$W_COMMONFILES_WIN")"
 
         # 64-bit prefixes still have plenty of issues:
-        case $LANG in
-            ru*) w_warn "Вы используете 64-битный WINEPREFIX. Важно: многие ветки устанавливают только 32-битные версии пакетов. Если у вас возникли проблемы, пожалуйста, проверьте еще раз на чистом 32-битном WINEPREFIX до отправки отчета об ошибке." ;;
-            *) w_warn "You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug." ;;
-        esac
+        #case $LANG in
+            #ru*) w_warn "Вы используете 64-битный WINEPREFIX. Важно: многие ветки устанавливают только 32-битные версии пакетов. Если у вас возникли проблемы, пожалуйста, проверьте еще раз на чистом 32-битном WINEPREFIX до отправки отчета об ошибке." ;;
+            #*) w_warn "You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug." ;;
+        #esac
     else
         WINE64="false"
         WINE_ARCH="${WINE}"
@@ -13706,7 +13706,7 @@ w_metadata uff fonts \
 
 load_uff()
 {
-    w_download "https://fancy-brook-66ae.vek.workers.dev/fad7939b-ubuntu-font-family-0.83.zip" 456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42 ubuntu-font-family-0.83.zip
+    w_download "https://fancy-brook-66ae.vek.workers.dev/ubuntu-font-family-0.83.zip" 456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42 ubuntu-font-family-0.83.zip
     w_try_unzip "$W_TMP" "$W_CACHE/$W_PACKAGE/$file1"
 
     w_try_cp_font_files "$W_TMP/$(basename "${file1}" .zip)" "$W_FONTSDIR_UNIX"
@@ -13787,7 +13787,7 @@ load_unifont()
 {
     # The GNU Unifont provides glyphs for just about everything in common language.  It is intended for multilingual usage.
     # See http://unifoundry.com/unifont.html for project page
-    w_download "https://fancy-brook-66ae.vek.workers.dev/font-builds/unifont-12.1.02.ttf" da4961540b9d02e01fb8755924db730db233c360b20ee321fda8ab7d0b9ca549
+    w_download "https://fancy-brook-66ae.vek.workers.dev/unifont-12.1.02.ttf" da4961540b9d02e01fb8755924db730db233c360b20ee321fda8ab7d0b9ca549
     w_try cp "$W_CACHE/$W_PACKAGE/$file1" "$W_TMP/unifont.ttf"
     w_try_cp_font_files "$W_TMP" "$W_FONTSDIR_UNIX"
 
