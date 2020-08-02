@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "QQ游戏平台",
+        "appName": "QQ游戏平台",
         "defaultFont": "true",
         "sharedMemory": "false",
         "writeCopy": "false",

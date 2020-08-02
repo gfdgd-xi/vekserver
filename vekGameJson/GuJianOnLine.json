@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "古剑奇谭网络版",
+        "appName": "古剑奇谭网络版",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",

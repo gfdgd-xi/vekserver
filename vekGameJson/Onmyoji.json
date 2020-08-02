@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "阴阳师",
+        "appName": "阴阳师",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",

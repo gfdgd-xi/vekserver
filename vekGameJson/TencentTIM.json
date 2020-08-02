@@ -9,11 +9,12 @@
     "Env": {},
     "Libs": [
                    "riched20",
-                   "riched32" ],
+                   "riched32",
+                   "corefonts" ],
     "Option": {
         "defaultFont": "true",
         "dockSystemVersion": "win10",
-        "gameName": "TIM",
+        "appName": "TIM",
         "geckoState": "true",
         "mainPrcoName": "TIM.exe",
         "monoState": "true",
@@ -25,6 +26,8 @@
     },
     "Regs": []
 }
+
+
 
 
 

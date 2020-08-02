@@ -1,0 +1,24 @@
+{
+    "Args": "",
+    "AttachProc": [],
+    "Dxvk": {
+        "dxvkHUD": "false",
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7"
+    },
+    "Env": {},
+    "Libs": ["corefonts",
+                    "riched20"],
+    "Option": {
+        "defaultFont": "false",
+        "dockSystemVersion": "win10",
+        "appName": "腾讯课堂",
+        "geckoState": "false",
+        "mainPrcoName": "TXEDU.exe",
+        "monoState": "false",
+        "sharedMemory": "false",
+        "trServer": "false",
+        "writeCopy": "false"
+    },
+    "Regs": []
+}

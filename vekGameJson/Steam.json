@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "Steam",
+        "appName": "Steam",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",

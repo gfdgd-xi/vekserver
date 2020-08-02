@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "WeGame",
+        "appName": "WeGame",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",
@@ -26,6 +26,7 @@
     "Regs": [],
     "Args": ""
 }
+
 
 
 

@@ -1,27 +1,26 @@
 {
     "Option": {
-        "appName": "网易战网",
+        "appName": "QQ音乐",
         "defaultFont": "true",
         "sharedMemory": "false",
         "writeCopy": "false",
         "rtServer": "false",
-        "dockSystemVersion": "win7",
+        "dockSystemVersion": "winxp64",
         "monoState": "true",
         "geckoState": "true",
-        "mainPrcoName": "Battle.net.exe"
+        "mainPrcoName": "QQMusic.exe"
     },
     "AttachProc": [
-        "Agent.exe"
     ],
     "Env": {},
     "Libs": 
-     [
+     ["directmusic",
       "corefonts"],
     "Dxvk": {
         "dxvkState": "true",
         "dxvkVersion": "dxvk-1.7",
         "dxvkHUD": "false"
     },
-    "Regs": [],
+    "Regs":[],
     "Args": ""
 }

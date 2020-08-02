@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "GoogleEarth",
+        "appName": "GoogleEarth",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",

@@ -671,7 +671,8 @@ _EOF_
     find "$_W_src_dir" -maxdepth 1 -type f -iname "$_W_pattern" -exec sh -c 'sh '"$WINETRICKS_WORKDIR/cp_font_files.sh"' "$1"' _ {} \;
 
     # Wait for Wine to add the new font to the registry under HKCU\Software\Wine\Fonts\Cache
-    w_wineserver -w
+    
+    #w_wineserver -w
 
     unset _W_dest_dir
 }
@@ -1012,12 +1013,13 @@ w_verify_shasum()
 # wrapper around wineserver, to let users know that it will wait indefinitely/kill stuff
 w_wineserver()
 {
+
     case "$@" in
         *-k) w_warn "Running $WINESERVER -k. This will kill all running wine processes in prefix=$WINEPREFIX";;
         *-w) w_warn "Running $WINESERVER -w. This will hang until all wine processes in prefix=$WINEPREFIX terminate";;
         *)   w_warn "Invoking wineserver with '$*'";;
     esac
-    # shellcheck disable=SC2068
+     shellcheck disable=SC2068
     "$WINESERVER" $@
 }
 
@@ -2659,7 +2661,7 @@ _EOF_
     w_try_regedit "$W_TMP_WIN"\\set-winver.reg
 
     # Prevent a race when calling from another verb
-    w_wineserver -w
+    #w_wineserver -w
 }
 
 w_unset_winver()
@@ -8818,9 +8820,9 @@ load_dotnet30sp1()
 
     w_call remove_mono
     w_call dotnet30
-    w_wineserver -w
+    #w_wineserver -w
     w_call dotnet20sp1
-    w_wineserver -w
+    #w_wineserver -w
 
     if w_workaround_wine_bug 47436 "Installing native prntvpt" 4.11, ; then
         w_call prntvpt
@@ -8882,7 +8884,7 @@ load_dotnet35()
     w_set_winver winxp
 
     w_override_dlls native mscoree mscorwks
-    w_wineserver -w
+    #w_wineserver -w
 
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_try_ms_installer "$WINE" "${file1}" /lang:ENU $W_UNATTENDED_SLASH_Q
@@ -10897,7 +10899,7 @@ load_msxml6()
     # https://www.microsoft.com/en-us/download/details.aspx?id=9774
 
     # 64bit exe also includes 32bit dlls
-    w_download https://fancy-brook-66ae.vek.workers.dev/msxml6-KB973686-enu-amd64.exe 4a64a90774a82fb59b9812ac9754b834c82282aa
+    w_download https://fancy-brook-66ae.vek.workers.dev/msxml6-KB973686-enu-amd64.exe 59a4bdb42d762d3d27cc842eb3becb687a234127b0b22b752536d77fd9694f5b
 
     w_try_cabextract --directory="${W_TMP}" "${W_CACHE}"/msxml6/msxml6-KB973686-enu-amd64.exe
     w_try_cabextract --directory="${W_TMP}" "${W_TMP}"/msxml6.msi

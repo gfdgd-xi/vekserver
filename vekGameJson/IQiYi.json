@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "爱奇艺PC客户端",
+        "appName": "爱奇艺PC客户端",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",
@@ -28,6 +28,7 @@
     "Regs": [],
     "Args": ""
 }
+
 
 
 

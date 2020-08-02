@@ -1,0 +1,23 @@
+{
+    "Args": "",
+    "AttachProc": [],
+    "Dxvk": {
+        "dxvkHUD": "false",
+        "dxvkState": "true",
+        "dxvkVersion": "dxvk-1.7"
+    },
+    "Env": {},
+    "Libs": ["corefonts"],
+    "Option": {
+        "defaultFont": "false",
+        "dockSystemVersion": "win10",
+        "appName": "微信",
+        "geckoState": "false",
+        "mainPrcoName": "WeChat.exe",
+        "monoState": "false",
+        "sharedMemory": "false",
+        "trServer": "false",
+        "writeCopy": "false"
+    },
+    "Regs": []
+}

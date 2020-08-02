@@ -1,6 +1,6 @@
 {
     "Option": {
-        "gameName": "GOG游戏平台",
+        "appName": "GOG游戏平台",
         "defaultFont": "true",
         "sharedMemory": "true",
         "writeCopy": "true",
