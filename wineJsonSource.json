@@ -9,5 +9,16 @@
         "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
         "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
         "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
+    },
+    "wine5.14-dev": {
+        "wineName": "wine5.14-dev",
+        "wineVersion": "5.14-dev",
+        "wineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
+        "wineDxvk": [
+            "dxvk-1.7"
+        ],
+        "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
+        "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
+        "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
     }
 }
