@@ -6,6 +6,8 @@
         "writeCopy": "false",
         "rtServer": "false",
         "dockSystemVersion": "winxp64",
+        "dockVer": "win32",
+        "dockWineVer": "wine",
         "monoState": "true",
         "geckoState": "true",
         "mainPrcoName": "QQMusic.exe"

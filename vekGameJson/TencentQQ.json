@@ -13,6 +13,8 @@
     "Option": {
         "defaultFont": "true",
         "dockSystemVersion": "win10",
+        "dockVer": "win32",
+        "dockWineVer": "wine",
         "appName": "QQ",
         "geckoState": "true",
         "mainPrcoName": "QQ.exe",

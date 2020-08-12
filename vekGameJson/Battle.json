@@ -6,6 +6,8 @@
         "writeCopy": "false",
         "rtServer": "false",
         "dockSystemVersion": "win7",
+        "dockVer": "win32",
+        "dockWineVer": "wine",
         "monoState": "true",
         "geckoState": "true",
         "mainPrcoName": "Battle.net.exe"

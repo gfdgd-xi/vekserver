@@ -6,6 +6,8 @@
         "writeCopy": "true",
         "rtServer": "true",
         "dockSystemVersion": "win7",
+        "dockVer": "win32",
+        "dockWineVer": "wine",
         "monoState": "true",
         "geckoState": "true",
         "mainPrcoName": "steam.exe"

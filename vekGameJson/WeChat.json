@@ -11,6 +11,8 @@
     "Option": {
         "defaultFont": "false",
         "dockSystemVersion": "win10",
+        "dockVer": "win32",
+        "dockWineVer": "wine",
         "appName": "微信",
         "geckoState": "false",
         "mainPrcoName": "WeChat.exe",
