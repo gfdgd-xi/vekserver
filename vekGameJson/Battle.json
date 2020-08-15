@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "网易战网",
-        "defaultFont": "true",
-        "sharedMemory": "false",
-        "writeCopy": "false",
-        "rtServer": "false",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName": "Battle.net.exe"
+        "AppName": "网易战网",
+        "DefaultFont": "true",
+        "SharedMemory": "false",
+        "WriteCopy": "false",
+        "RtServer": "false",
+        "MainPrcoName": "Battle.net.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc": [
         "Agent.exe"
@@ -20,9 +22,9 @@
      [
       "corefonts"],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs": [],
     "Args": ""

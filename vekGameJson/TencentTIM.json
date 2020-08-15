@@ -2,9 +2,9 @@
     "Args": "",
     "AttachProc": [],
     "Dxvk": {
-        "dxvkHUD": "false",
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7"
+        "DxvkHUD": "false",
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7"
     },
     "Env": {},
     "Libs": [
@@ -12,19 +12,21 @@
                    "riched32",
                    "corefonts" ],
     "Option": {
-        "defaultFont": "true",
-        "dockSystemVersion": "win10",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "appName": "TIM",
-        "geckoState": "true",
-        "mainPrcoName": "TIM.exe",
-        "monoState": "true",
-        "sharedMemory": "false",
-        "taskMemorySharing": "true",
-        "taskRealTimePriority": "true",
-        "trServer": "false",
+        "DefaultFont": "true",     
+        "AppName": "TIM",
+        "MainPrcoName": "TIM.exe",
+        "SharedMemory": "false",
+        "TaskMemorySharing": "true",
+        "TaskRealTimePriority": "true",
+        "TrServer": "false",
         "writeCopy": "false"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "Regs": []
 }

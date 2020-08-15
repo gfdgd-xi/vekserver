@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "古剑奇谭网络版",
-        "defaultFont": "true",
-        "sharedMemory": "true",
-        "writeCopy": "true",
-        "rtServer": "true",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState":"false",
-        "geckoState":"false",
-        "mainPrcoName":"gujianol.exe"
+        "AppName": "古剑奇谭网络版",
+        "DefaultFont": "true",
+        "SharedMemory": "true",
+        "WriteCopy": "true",
+        "RtServer": "true",
+        "MainPrcoName":"gujianol.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc":[],
     "Env": {},
@@ -19,9 +21,9 @@
         "vcrun2015"
     ],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "true"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "true"
     },
     "Regs": [],
     "Args": ""

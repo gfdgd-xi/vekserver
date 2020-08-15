@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "WeGame",
-        "defaultFont": "true",
-        "sharedMemory": "true",
-        "writeCopy": "true",
-        "rtServer": "true",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName":"wegame.exe"
+        "AppName": "WeGame",
+        "DefaultFont": "true",
+        "SharedMemory": "true",
+        "WriteCopy": "true",
+        "RtServer": "true",
+        "MainPrcoName":"wegame.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc":["TASLogin.exe"],
     "Env": {},
@@ -21,9 +23,9 @@
         "vcrun2015"
     ],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs": [],
     "Args": ""

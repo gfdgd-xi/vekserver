@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "Steam",
-        "defaultFont": "true",
-        "sharedMemory": "true",
-        "writeCopy": "true",
-        "rtServer": "true",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName": "steam.exe"
+        "AppName": "Steam",
+        "DefaultFont": "true",
+        "SharedMemory": "true",
+        "WriteCopy": "true",
+        "RtServer": "true",
+        "MainPrcoName": "steam.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc": [
         "steamwebhelper.exe"
@@ -20,9 +22,9 @@
         "corefonts"
     ],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs": [
         {

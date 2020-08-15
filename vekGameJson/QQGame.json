@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "QQ游戏平台",
-        "defaultFont": "true",
-        "sharedMemory": "false",
-        "writeCopy": "false",
-        "rtServer": "false",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName": "QQGame.exe"
+        "AppName": "QQ游戏平台",
+        "DefaultFont": "true",
+        "SharedMemory": "false",
+        "WriteCopy": "false",
+        "RtServer": "false",
+        "MainPrcoName": "QQGame.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc": [
     ],
@@ -23,9 +25,9 @@
     "vcrun2013",
     "vcrun2015"],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs":[],
     "Args": ""

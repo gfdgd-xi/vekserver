@@ -2,24 +2,26 @@
     "Args": "",
     "AttachProc": [],
     "Dxvk": {
-        "dxvkHUD": "false",
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7"
+        "DxvkHUD": "false",
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7"
     },
     "Env": {},
     "Libs": ["corefonts"],
     "Option": {
-        "defaultFont": "false",
-        "dockSystemVersion": "win10",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "appName": "微信",
-        "geckoState": "false",
-        "mainPrcoName": "WeChat.exe",
-        "monoState": "false",
-        "sharedMemory": "false",
-        "trServer": "false",
-        "writeCopy": "false"
+        "DefaultFont": "false",
+        "AppName": "微信",
+        "MainPrcoName": "WeChat.exe",
+        "SharedMemory": "false",
+        "TrServer": "false",
+        "WriteCopy": "false"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "Regs": []
 }

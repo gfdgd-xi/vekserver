@@ -7,9 +7,7 @@
     "GOG游戏平台":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GOG.json",
     "QQ游戏平台":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQGame.json",
     "WeGame":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeGame.json",
-    "爱奇艺PC客户端":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/IQiYi.json",
-    "腾讯QQ":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentQQ.json",
-    "腾讯TIM":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentTIM.json"
+    "爱奇艺PC客户端":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/IQiYi.json"
 }
 
 

@@ -2,25 +2,27 @@
     "Args": "",
     "AttachProc": [],
     "Dxvk": {
-        "dxvkHUD": "false",
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7"
+        "DxvkHUD": "false",
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7"
     },
     "Env": {},
     "Libs": ["corefonts",
                     "riched20"],
     "Option": {
-        "defaultFont": "false",
-        "dockSystemVersion": "win10",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "appName": "腾讯课堂",
-        "geckoState": "false",
-        "mainPrcoName": "TXEDU.exe",
-        "monoState": "false",
-        "sharedMemory": "false",
-        "trServer": "false",
-        "writeCopy": "false"
+        "DefaultFont": "false",       
+        "AppName": "腾讯课堂",
+        "MainPrcoName": "TXEDU.exe",
+        "SharedMemory": "false",
+        "TrServer": "false",
+        "WriteCopy": "false"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "Regs": []
 }

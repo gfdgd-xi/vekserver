@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "GOG游戏平台",
-        "defaultFont": "true",
-        "sharedMemory": "true",
-        "writeCopy": "true",
-        "rtServer": "true",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName":"GalaxyClient.exe"
+        "AppName": "GOG游戏平台",
+        "DefaultFont": "true",
+        "SharedMemory": "true",
+        "WriteCopy": "true",
+        "RtServer": "true",
+        "MainPrcoName":"GalaxyClient.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc":[
      "GOG Galaxy Notifications Renderer.exe",
@@ -24,9 +26,9 @@
         "vcrun2015"
     ],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs": [],
     "Args": ""

@@ -1,16 +1,18 @@
 {
     "Option": {
-        "appName": "爱奇艺PC客户端",
-        "defaultFont": "true",
-        "sharedMemory": "true",
-        "writeCopy": "true",
-        "rtServer": "true",
-        "dockSystemVersion": "win7",
-        "dockVer": "win32",
-        "dockWineVer": "wine",
-        "monoState": "true",
-        "geckoState": "true",
-        "mainPrcoName":"QyClient.exe"
+        "AppName": "爱奇艺PC客户端",
+        "DefaultFont": "true",
+        "SharedMemory": "true",
+        "WriteCopy": "true",
+        "RtServer": "true",
+        "MainPrcoName":"QyClient.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"win7",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
     },
     "AttachProc":["QyPlayer.exe",
 "QyKernel.exe",
@@ -23,9 +25,9 @@
         "vcrun2015"
     ],
     "Dxvk": {
-        "dxvkState": "true",
-        "dxvkVersion": "dxvk-1.7",
-        "dxvkHUD": "false"
+        "DxvkState": "true",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
     },
     "Regs": [],
     "Args": ""
