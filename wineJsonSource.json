@@ -6,9 +6,9 @@
         "WineDxvk": [
             "dxvk-1.7"
         ],
-        "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
-        "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
-        "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
+        "Mono": "https://fancy-brook-66ae.vek.workers.dev/plugs/Mono.msi",
+        "GeckoX86": "https://fancy-brook-66ae.vek.workers.dev/plugs/GeckoX86.msi",
+        "GeckoX86_64": "https://fancy-brook-66ae.vek.workers.dev/plugs/GeckoX86_64.msi"
     },
     "wine5.14-dev": {
         "WineName": "wine5.14-dev",
@@ -17,8 +17,8 @@
         "WineDxvk": [
             "dxvk-1.7"
         ],
-        "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
-        "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
-        "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
+        "Mono": "https://fancy-brook-66ae.vek.workers.dev/plugs/Mono.msi",
+        "GeckoX86": "https://fancy-brook-66ae.vek.workers.dev/plugs/GeckoX86.msi",
+        "GeckoX86_64": "https://fancy-brook-66ae.vek.workers.dev/plugs/GeckoX86_64.msi"
     }
 }
