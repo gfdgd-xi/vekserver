@@ -1,9 +1,9 @@
 {
     "wine5.13-dev": {
-        "wineName": "wine5.13-dev",
-        "wineVersion": "5.13-dev",
-        "wineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
-        "wineDxvk": [
+        "WineName": "wine5.13-dev",
+        "WineVersion": "5.13-dev",
+        "WineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
+        "WineDxvk": [
             "dxvk-1.7"
         ],
         "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
@@ -11,10 +11,10 @@
         "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
     },
     "wine5.14-dev": {
-        "wineName": "wine5.14-dev",
-        "wineVersion": "5.14-dev",
-        "wineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
-        "wineDxvk": [
+        "WineName": "wine5.14-dev",
+        "WineVersion": "5.14-dev",
+        "WineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
+        "WineDxvk": [
             "dxvk-1.7"
         ],
         "Mono": "https://JackLee_CN.coding.net/api/share/download/a6ff4964-5aa6-43d0-b670-e004adaeed68",
