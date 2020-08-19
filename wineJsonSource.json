@@ -1,7 +1,7 @@
 {
-    "wine5.13-dev": {
-        "WineName": "wine5.13-dev",
-        "WineVersion": "5.13-dev",
+    "wine5.15-dev": {
+        "WineName": "wine5.15-dev",
+        "WineVersion": "5.15-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
         "WineDxvk": [
             "dxvk-1.7"
