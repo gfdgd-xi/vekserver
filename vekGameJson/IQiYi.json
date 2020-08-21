@@ -16,7 +16,8 @@
     },
     "AttachProc":["QyPlayer.exe",
 "QyKernel.exe",
-"QyFragment.exe"],
+"QyFragment.exe",
+"QiyiService.exe"],
     "Env": {},
     "Libs": [
         "corefonts",
