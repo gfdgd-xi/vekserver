@@ -8,7 +8,7 @@
         "MainPrcoName": "QQMusic.exe"
     },
     "Docker":{
-        "DockerSysVersion":"winxp64",
+        "DockerSysVersion":"winxp",
         "DockerVersion":"win32",
         "DockerWineVersion":"wine",
         "MonoState":"false",
