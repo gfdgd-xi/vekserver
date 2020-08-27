@@ -2,33 +2,33 @@
     "Args": "",
     "AttachProc": [],
     "Docker": {
-        "DockerSystemVersion": "win10",
+        "DockerSysVersion": "win10",
         "DockerVersion": "win32",
         "DockerWineVersion": "wine",
-        "GeckoState": true,
-        "MonoState": true
+        "GeckoState": "true",
+        "MonoState": "true"
     },
     "Dxvk": {
-        "DxvkHUD": false,
-        "DxvkState": true,
+        "DxvkHUD": "false",
+        "DxvkState": "true",
         "dxvkVersion": "dxvk-1.7"
     },
     "Env": {},
     "Libs": ["xact",
              "xinput",
-"d3dx9",
-"directx9",
-"devenum",
-"quartz",
-"ie8",
-"ole32"],
+             "d3dx9",
+             "directx9",
+             "devenum",
+             "quartz",
+             "ie8",
+             "ole32"],
     "Option": {
         "AppName": "最终幻想14",
-        "DefaultFont": false,
+        "DefaultFont": "false",
         "MainPrcoName": "FFXIVBoot.exe",
-        "RtServer": false,
-        "SharedMemory": false,
-        "WriteCopy": false
+        "RtServer": "false",
+        "SharedMemory": "false",
+        "WriteCopy": "false"
     },
     "Regs": []
 }
