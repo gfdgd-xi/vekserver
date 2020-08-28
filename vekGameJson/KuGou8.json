@@ -1,0 +1,31 @@
+{
+    "Option": {
+        "AppName": "酷狗8.0",
+        "DefaultFont": "true",
+        "SharedMemory": "false",
+        "WriteCopy": "false",
+        "RtServer": "false",
+        "MainPrcoName": "KuGou.exe"
+    },
+    "Docker":{
+        "DockerSysVersion":"winxp",
+        "DockerVersion":"win32",
+        "DockerWineVersion":"wine",
+        "MonoState":"false",
+        "GeckoState":"false"
+    },
+    "AttachProc": [],
+    "Env": {},
+    "Libs": 
+     [
+      "corefonts",
+      "riched20",
+      "d3dx9"],
+    "Dxvk": {
+        "DxvkState": "false",
+        "DxvkVersion": "dxvk-1.7",
+        "DxvkHUD": "false"
+    },
+    "Regs": [],
+    "Args": ""
+}
