@@ -11,32 +11,32 @@
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json"
         },
         "Steam":{
-            "AppName":"阴阳师",
+            "AppName":"Steam",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Steam.json"
         },
         "网易战网":{
-            "AppName":"阴阳师",
+            "AppName":"网易战网",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Battle.json"
         },
         "GOG游戏平台":{
-            "AppName":"阴阳师",
+            "AppName":"GOG游戏平台",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GOG.json"
         },
         "QQ游戏平台":{
-            "AppName":"阴阳师",
+            "AppName":"QQ游戏平台",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQGame.json"
         },
         "WeGame":{
-            "AppName":"阴阳师",
+            "AppName":"WeGame",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeGame.json"
         },
         "最终幻想14(盛大)":{
-            "AppName":"阴阳师",
+            "AppName":"最终幻想14(盛大)",
             "AppIco":":/res/img/vek.ico",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/FFXIV.json"
         }
