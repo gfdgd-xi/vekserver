@@ -1,62 +1,94 @@
 {
     "网络游戏":{
-         "软件1":{
-             "AppName":"软件1",
+         "古剑奇谭网络版":{
+             "AppName":"古剑奇谭网络版",
              "AppIco":":/res/img/vek.ico",
-             "AppJson":""
+             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GuJianOnLine.json"
          },
-         "软件2":{
-            "AppName":"软件2",
+         "阴阳师":{
+            "AppName":"阴阳师",
             "AppIco":":/res/img/vek.ico",
-            "AppJson":""
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json"
+        },
+        "Steam":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Steam.json"
+        },
+        "网易战网":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Battle.json"
+        },
+        "GOG游戏平台":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GOG.json"
+        },
+        "QQ游戏平台":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQGame.json"
+        },
+        "WeGame":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeGame.json"
+        },
+        "最终幻想14(盛大)":{
+            "AppName":"阴阳师",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/FFXIV.json"
         }
     },
     "单机游戏":{
-        "软件1":{
-            "AppName":"软件1",
-            "AppIco":":/res/img/vek.ico",
-            "AppJson":""
-        },
-        "软件2":{
-           "AppName":"软件2",
-           "AppIco":":/res/img/vek.ico",
-           "AppJson":""
-       }
+
     },
-    "聊天软件":{
-        "软件1":{
-            "AppName":"软件1",
+    "娱乐软件":{
+        "酷狗8.0":{
+            "AppName":"酷狗8.0",
             "AppIco":":/res/img/vek.ico",
-            "AppJson":""
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/KuGou8.json"
         },
-        "软件2":{
-           "AppName":"软件2",
+        "QQ音乐":{
+           "AppName":"QQ音乐",
            "AppIco":":/res/img/vek.ico",
-           "AppJson":""
-       }
+           "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQMusic.json"
+        },
+        "腾讯QQ":{
+            "AppName":"腾讯QQ",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentQQ.json"
+         },
+         "腾讯TIM":{
+            "AppName":"腾讯TIM",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentTIM.json"
+         },
+         "微信PC版":{
+            "AppName":"微信PC版",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeChat.json"
+         },
+         "爱奇艺PC版":{
+            "AppName":"爱奇艺PC版",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/IQiYi.json"
+         },
+         "腾讯读书课堂":{
+            "AppName":"腾讯读书课堂",
+            "AppIco":":/res/img/vek.ico",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TXEDU.json"
+         }
     },
-    "工业软件":{
-        "软件1":{
-            "AppName":"软件1",
-            "AppIco":":/res/img/vek.ico",
-            "AppJson":""
-        },
-        "软件2":{
-           "AppName":"软件2",
-           "AppIco":":/res/img/vek.ico",
-           "AppJson":""
-       }
+    "行业软件":{
+
     },
-    "其他":{
-        "软件1":{
-            "AppName":"软件1",
+    "工具软件":{
+        "GoogleEarth":{
+            "AppName":"GoogleEarth",
             "AppIco":":/res/img/vek.ico",
-            "AppJson":""
-        },
-        "软件2":{
-           "AppName":"软件2",
-           "AppIco":":/res/img/vek.ico",
-           "AppJson":""
-       }
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GoogleEarth.json"
+        }
     }
 }
