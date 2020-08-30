@@ -1,61 +1,61 @@
 {
     "网络游戏":{
          "软件1":{
-             "AppName":"软件",
-             "AppIco":"",
+             "AppName":"软件1",
+             "AppIco":":/res/img/vek.ico",
              "AppJson":""
          },
          "软件2":{
-            "AppName":"软件",
-            "AppIco":"",
+            "AppName":"软件2",
+            "AppIco":":/res/img/vek.ico",
             "AppJson":""
         }
     },
     "单机游戏":{
         "软件1":{
-            "AppName":"软件",
-            "AppIco":"",
+            "AppName":"软件1",
+            "AppIco":":/res/img/vek.ico",
             "AppJson":""
         },
         "软件2":{
-           "AppName":"软件",
-           "AppIco":"",
+           "AppName":"软件2",
+           "AppIco":":/res/img/vek.ico",
            "AppJson":""
        }
     },
     "聊天软件":{
         "软件1":{
-            "AppName":"软件",
-            "AppIco":"",
+            "AppName":"软件1",
+            "AppIco":":/res/img/vek.ico",
             "AppJson":""
         },
         "软件2":{
-           "AppName":"软件",
-           "AppIco":"",
+           "AppName":"软件2",
+           "AppIco":":/res/img/vek.ico",
            "AppJson":""
        }
     },
     "工业软件":{
         "软件1":{
-            "AppName":"软件",
-            "AppIco":"",
+            "AppName":"软件1",
+            "AppIco":":/res/img/vek.ico",
             "AppJson":""
         },
         "软件2":{
-           "AppName":"软件",
-           "AppIco":"",
+           "AppName":"软件2",
+           "AppIco":":/res/img/vek.ico",
            "AppJson":""
        }
     },
     "其他":{
         "软件1":{
-            "AppName":"软件",
-            "AppIco":"",
+            "AppName":"软件1",
+            "AppIco":":/res/img/vek.ico",
             "AppJson":""
         },
         "软件2":{
-           "AppName":"软件",
-           "AppIco":"",
+           "AppName":"软件2",
+           "AppIco":":/res/img/vek.ico",
            "AppJson":""
        }
     }
