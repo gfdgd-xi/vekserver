@@ -17,7 +17,7 @@
         },
         "网易战网":{
             "AppName":"网易战网",
-            "AppIco":":Battle.net",
+            "AppIco":"Battle.net",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Battle.json"
         },
         "GOG游戏平台":{
