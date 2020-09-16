@@ -3,8 +3,8 @@
     "AttachProc": [],
     "Docker": {
         "DockerSysVersion": "win10",
-        "DockerVersion": "win64",
-        "DockerWineVersion": "wine64",
+        "DockerVersion": "win32",
+        "DockerWineVersion": "wine",
         "GeckoState": "true",
         "MonoState": "true"
     },
@@ -25,6 +25,7 @@
     },
     "Regs": []
 }
+
 
 
 
