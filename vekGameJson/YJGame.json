@@ -1,0 +1,32 @@
+{
+    "Args": "",
+    "AttachProc": [],
+    "Docker": {
+        "DockerSysVersion": "win10",
+        "DockerVersion": "win64",
+        "DockerWineVersion": "wine",
+        "GeckoState": "true",
+        "MonoState": "true"
+    },
+    "Dxvk": {
+        "DxvkHUD": "false",
+        "DxvkState": "false",
+        "dxvkVersion": "dxvk-1.7"
+    },
+    "Env": {},
+    "Libs": ["msctf","riched30"],
+    "Option": {
+        "AppName": "游聚游戏平台",
+        "DefaultFont": "true",
+        "MainPrcoName": "游聚游戏平台.exe",
+        "RtServer": "false",
+        "SharedMemory": "false",
+        "WriteCopy": "false"
+    },
+    "Regs": []
+}
+
+
+
+
+

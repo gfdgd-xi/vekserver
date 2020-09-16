@@ -39,7 +39,13 @@
             "AppName":"最终幻想14(盛大)",
             "AppIco":"FFXIVBoot",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/FFXIV.json"
+        },
+        "游聚游戏平台":{
+            "AppName":"游聚游戏平台",
+            "AppIco":"启动游聚游戏平台",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/YJGame.json"
         }
+
     },
     "单机游戏":{
 
