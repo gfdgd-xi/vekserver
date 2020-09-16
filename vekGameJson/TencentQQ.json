@@ -1,6 +1,9 @@
 {
     "Args": "",
-    "AttachProc": [],
+    "AttachProc": ["QQProtect.exe",
+                   "TXPlatform.exe",
+                   "QQExternal.exe"
+                  ],
     "Dxvk": {
         "DxvkHUD": "false",
         "DxvkState": "true",
@@ -29,6 +32,7 @@
     },
     "Regs": []
 }
+
 
 
 
