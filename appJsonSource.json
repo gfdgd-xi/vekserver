@@ -5,11 +5,6 @@
              "AppIco":"gujianol.exe",
              "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GuJianOnLine.json"
          },
-         "阴阳师":{
-            "AppName":"阴阳师",
-            "AppIco":"Launch",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json"
-        },
         "Steam":{
             "AppName":"Steam",
             "AppIco":"steam",
