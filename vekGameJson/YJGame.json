@@ -4,7 +4,7 @@
     "Docker": {
         "DockerSysVersion": "win10",
         "DockerVersion": "win64",
-        "DockerWineVersion": "wine",
+        "DockerWineVersion": "wine64",
         "GeckoState": "true",
         "MonoState": "true"
     },
@@ -25,6 +25,7 @@
     },
     "Regs": []
 }
+
 
 
 
