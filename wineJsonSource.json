@@ -20,17 +20,6 @@
         "Mono": "https://JackLee_CN.coding.net/api/share/download/82a63b68-16b0-4e5b-b2ad-121e65713dfa",
         "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
         "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
-    },
-   "deepinwine5": {
-        "WineName": "deepinwine5",
-        "WineVersion": "deepinwine5",
-        "WineGit": "https://e.coding.net/JackLee_CN/vekDeepinWine/vekDeepinWine.git",
-        "WineDxvk": [
-            "dxvk-1.7"
-        ],
-        "Mono": "https://JackLee_CN.coding.net/api/share/download/82a63b68-16b0-4e5b-b2ad-121e65713dfa",
-        "GeckoX86": "https://JackLee_CN.coding.net/api/share/download/1085e8d4-ebab-4147-a636-782e38dc2250",
-        "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
     }
 }
 
