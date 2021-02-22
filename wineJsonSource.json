@@ -11,8 +11,8 @@
         "GeckoX86_64": "https://JackLee_CN.coding.net/api/share/download/eb58596d-d8ed-4843-a0ef-3ff94c5c32a0"
     },
     "wine5.14-dev": {
-        "WineName": "wine5.14-dev",
-        "WineVersion": "5.14-dev",
+        "WineName": "wine6.2-dev",
+        "WineVersion": "6.2-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
         "WineDxvk": [
             "dxvk-1.7"
