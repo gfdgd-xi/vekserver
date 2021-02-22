@@ -9,6 +9,10 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 在deepin或者uos网络设置里面把IPV6设置成忽略
 
 更新日志
+2021-2-22
+1-调整起始页信息
+2-更新替换winehq版本5.14到6.2版本
+3-修复自行应gui策略问题
 2020-11-29 v1.0.1.5
 1-修复APP保存BUG
 2020-11-29 v1.0.1.4
