@@ -1,0 +1,13 @@
+系统运行环境库(必须):
+sudo apt install aria2 winbind cabextract  libvulkan1 libvulkan1:i386 icoutils
+特别说明：
+winehq在debian10平台后需要安装libfaudio0才能完好的运行。
+对应的winehq版本为winehq6.2
+对应的winehq版本为winehq5.15则不需要
+WineHQ组件版本：
+wine-mono：6.0
+wine-gecko-x86：2.7.2
+wine-gecko-x86_64：2.7.2
+
+
+
