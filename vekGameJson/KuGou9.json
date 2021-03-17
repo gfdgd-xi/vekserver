@@ -1,6 +1,6 @@
 {
     "Option": {
-        "AppName": "酷狗8.0",
+        "AppName": "酷狗9.0",
         "DefaultFont": "true",
         "SharedMemory": "false",
         "WriteCopy": "false",
@@ -18,9 +18,9 @@
     "Env": {},
     "Libs": 
      [
-      "corefonts",
-      "riched20",
-      "d3dx9"],
+      "riched30",
+      "quartz",
+      "directmusic"],
     "Dxvk": {
         "DxvkState": "false",
         "DxvkVersion": "dxvk-1.7",
