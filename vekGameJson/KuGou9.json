@@ -8,7 +8,7 @@
         "MainPrcoName": "KuGou.exe"
     },
     "Docker":{
-        "DockerSysVersion":"winxp",
+        "DockerSysVersion":"win7",
         "DockerVersion":"win32",
         "DockerWineVersion":"wine",
         "MonoState":"false",
