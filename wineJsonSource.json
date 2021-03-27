@@ -1,21 +1,23 @@
 {
-    "wine5.15-dev": {
-        "WineName": "wine5.15-dev",
-        "WineVersion": "5.15-dev",
+    "wine6.5-dev": {
+        "WineName": "wine6.5-dev",
+        "WineVersion": "6.5-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
         "WineDxvk": [
-            "dxvk-1.7"
+            "dxvk-1.7",
+            "dxvk-1.8.1"
         ],
         "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
         "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
         "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
     },
-    "wine5.14-dev": {
+    "wine6.2-dev": {
         "WineName": "wine6.2-dev",
         "WineVersion": "6.2-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
         "WineDxvk": [
-            "dxvk-1.7"
+            "dxvk-1.7",
+            "dxvk-1.8.1"
         ],
        "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
        "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
