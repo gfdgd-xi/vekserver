@@ -14,7 +14,7 @@
         "MonoState":"false",
         "GeckoState":"false"
     },
-    "AttachProc": [],
+    "AttachProc": ["KGService.exe"],
     "Env": {},
     "Libs": 
      [
