@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #JackLee_CN Edit ADD row in 5292
 #EDIT row in 1007 POSIX to Bourne-Again 
 WINETRICKS_VERSION=20210402
