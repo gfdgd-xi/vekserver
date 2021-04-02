@@ -1,6 +1,8 @@
-#!/bin/bash
-#JackLee_CN Edit ADD row in 5291
+#!/bin/sh
+#JackLee_CN Edit ADD row in 5292
+#EDIT row in 1007 POSIX to Bourne-Again 
 WINETRICKS_VERSION=20210402
+
 # FIXME: XDG_CACHE_HOME is defined twice, clean this up
 XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 XDG_CACHE_HOME="${XDG_CACHE_HOME:-$HOME/.cache}"
@@ -1002,7 +1004,7 @@ winetricks_selfupdate()
     # 2016/10/26: now file is uncompressed? Handle both cases:
     update_file_type="$(file "$_W_tmpdir/$_W_filename")"
     case "$update_file_type" in
-        *"POSIX shell script"*)
+        *"Bourne-Again shell script"*)
             #echo "already decompressed!"
             w_try mv "$_W_tmpdir/$_W_filename" "${_W_update_file}"
             ;;
