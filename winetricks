@@ -1,5 +1,6 @@
 #!/bin/bash
 #JackLee_CN Edit ADD row in 5291
+WINETRICKS_VERSION=20210402
 # FIXME: XDG_CACHE_HOME is defined twice, clean this up
 XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 XDG_CACHE_HOME="${XDG_CACHE_HOME:-$HOME/.cache}"
