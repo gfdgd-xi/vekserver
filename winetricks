@@ -1,5 +1,7 @@
 #!/bin/bash
-#JackLee_CN Edit ADD row in 5292
+#JackLee_CN Edit Add row in 5292 Agrs url to diy winetricks file server url
+#Add W_DOWNLOADURLS to winetricks file server Agrs next
+#add S_HTTPS=https:// to Agrs Next yes or no url agrs
 #EDIT row in 1007 POSIX to Bourne-Again 
 WINETRICKS_VERSION=20210402
 
@@ -5292,20 +5294,8 @@ _EOF_
     esac
 }
 
-#设置最后一个参数为url
-for W_DOWNLOADURLS; do true; done
-
-S_HTTPS=https://
-
-if [[ $W_DOWNLOADURLS =~ $S_HTTPS ]]
-then
-  echo $W_DOWNLOADURLS
-else
-  #给定一个默认链接用于解决不传url的问题
-  W_DOWNLOADURLS="https://fancy-brook-66ae.vek.workers.dev"
-  echo $W_DOWNLOADURLS
-fi
-
+#设置最后W_DOWNLOADURLS参数为url
+W_DOWNLOADURLS="https://fancy-brook-66ae.vek.workers.dev"
 #------------------------------------------------------------
 winetricks_handle_option()
 {
@@ -5313,6 +5303,7 @@ winetricks_handle_option()
         --country=*) W_COUNTRY="${1##--country=}" ;;
         -f|--force) WINETRICKS_FORCE=1;;
         --gui) winetricks_detect_gui;;
+        --Durl=*) W_DOWNLOADURLS="${!##--Durl=}" ;;
         -h|--help) winetricks_usage ; exit 0 ;;
         --isolate) WINETRICKS_OPT_SHAREDPREFIX=0 ;;
         -k|--keep_isos) WINETRICKS_OPT_KEEPISOS=1 ;;
