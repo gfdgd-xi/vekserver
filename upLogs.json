@@ -9,6 +9,21 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 在deepin或者uos网络设置里面把IPV6设置成忽略
 
 更新日志
+
+2021-4-6（v1.0.1.9）
+提醒：本次更新因为更新了vek独立更新程序，所以可能会导致更新失败，轻前往下面地址下载1.0.1.9版本
+https://fancy-brook-66ae.vek.workers.dev/UEK/vek-1019.zip (解压密码:2021-4-6)
+
+1-增加winetricks上游服务器列表提供六台服务器
+2-增加winetricks上游服务器测速功能
+3-增加修改hosts针对winetricks上游服务器域名
+4-更新winetricks脚本，删除不必要得冗余库版本
+5-修复winetricks在线更新功能
+6-增加winetricks自定义下载上游服务器url地址。传入参数--Durl=×××  不传入--Durl=则为默认服务器
+7-修改新增容器交互
+8-修改安装软件逻辑
+9-更新vek独立更新程序，更新服务器从腾讯coding改为https://fancy-brook-66ae.vek.workers.dev
+
 2021-3-23（v1.0.1.8）
 1-重写wine安装UI逻辑
 2-优化wine下载效率
