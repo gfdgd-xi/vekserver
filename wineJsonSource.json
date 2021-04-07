@@ -7,9 +7,9 @@
             "dxvk-1.7",
             "dxvk-1.8.1"
         ],
-        "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
-        "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
-        "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
+        "Mono": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-mono.msi",
+        "GeckoX86": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86.msi",
+        "GeckoX86_64": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86_64.msi"
     },
     "wine6.4-dev": {
         "WineName": "wine6.4-dev",
@@ -19,20 +19,21 @@
             "dxvk-1.7",
             "dxvk-1.8.1"
         ],
-       "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
-       "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
-       "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
+       "Mono": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-mono.msi",
+       "GeckoX86": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86.msi",
+       "GeckoX86_64": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86_64.msi"
     },
     "deepin-wine5": {
         "WineName": "deepin-wine5",
         "WineVersion": "5.0-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/vekDeepinWine/vekDeepinWine.git",
         "WineDxvk": [
-            "dxvk-1.7"
+            "dxvk-1.7",
+            "dxvk-1.8.1"
         ],
-       "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
-       "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
-       "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
+       "Mono": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-mono.msi",
+       "GeckoX86": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86.msi",
+       "GeckoX86_64": "https://fancy-brook-66ae.vek.workers.dev/vek_wine_plugs/wine-gecko-x86_64.msi"
     }
 }
 
