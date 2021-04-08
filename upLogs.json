@@ -10,6 +10,10 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 
 更新日志
 
+2021-4-8(v1.0.2.0)
+
+安装wine 组件不再单独下载
+
 2021-4-6（v1.0.1.9）
 提醒：本次更新因为更新了vek独立更新程序，所以可能会导致更新失败，轻前往下面地址下载1.0.1.9版本
 https://fancy-brook-66ae.vek.workers.dev/UEK/vek-1019.zip (解压密码:2021-4-6)
