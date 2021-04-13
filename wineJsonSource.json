@@ -11,9 +11,9 @@
         "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
         "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
     },
-    "wine6.4-dev": {
-        "WineName": "wine6.4-dev",
-        "WineVersion": "6.4-dev",
+    "wine6.6-dev": {
+        "WineName": "wine6.6-dev",
+        "WineVersion": "6.6-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
         "WineDxvk": [
             "dxvk-1.7",
