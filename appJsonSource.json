@@ -15,6 +15,11 @@
             "AppIco":"Battle.net",
             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Battle.json"
         },
+        "阴阳师":{
+            "AppName":"阴阳师",
+            "AppIco":"Launch.exe",
+            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json"
+        },
         "GOG游戏平台":{
             "AppName":"GOG游戏平台",
             "AppIco":"GalaxyClient",
