@@ -18,7 +18,8 @@
     "Env": {},
     "Libs": [
         "vcrun2013",
-        "vcrun2015"
+        "vcrun2015",
+        "gdiplus"
     ],
     "Dxvk": {
         "DxvkState": "true",
