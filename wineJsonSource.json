@@ -1,7 +1,7 @@
 {
-    "wine6.5-dev": {
-        "WineName": "wine6.5-dev",
-        "WineVersion": "6.5-dev",
+    "wine6.7-dev": {
+        "WineName": "wine6.7-dev",
+        "WineVersion": "6.7-dev",
         "WineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
         "WineDxvk": [
             "dxvk-1.7",
