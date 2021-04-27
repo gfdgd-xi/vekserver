@@ -10,6 +10,11 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 
 更新日志
 
+2021-4-13(v1.0.2.3)
+1-新增更新程序SHA256验证
+2-新增容器列表样式
+3-新增单文件SHA256计算
+4-新增deepin-wine5 64位容器支持
 2021-4-13(v1.0.2.1)
 
 1-删除wine不必要的字体，fonts从400MB降低为135MB(必备了)
