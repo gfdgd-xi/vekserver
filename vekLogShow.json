@@ -1,5 +1,5 @@
 系统运行环境库(必须):
-sudo apt install aria2 winbind cabextract  libvulkan1 libvulkan1:i386 icoutils
+sudo apt install deepin-wine5 aria2 winbind cabextract  libvulkan1 libvulkan1:i386 icoutils
 
 特别说明：
 
