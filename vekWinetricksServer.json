@@ -1,9 +1,3 @@
 {
-    "AA-WorkersToWintricks": "https://fancy-brook-66ae.vek.workers.dev",
-    "AB-WorkersHerokuTeambition":"https://winetricks-heroku.vek.workers.dev/vek-Teambition/winetricks",
-    "AC-WorkersHerokuMCloud": "https://winetricks-heroku.vek.workers.dev/vek-mCloud/winetricks",
-    "BA-HerokuMCloud": "https://vek-winetricks-librarys.herokuapp.com/vek-mCloud/winetricks",
-    "BB-HerokuTeambition": "https://vek-winetricks-librarys.herokuapp.com/vek-Teambition/winetricks",
-    "BC-HerokuToPan": "https://winetricks-panindex.herokuapp.com",
-    "BD-HerokuToPan": "https://veks.vek.workers.dev"
+    "AA-WorkersToWintricks": "https://fancy-brook-66ae.vek.workers.dev"
 }
