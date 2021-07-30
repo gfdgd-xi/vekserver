@@ -38,7 +38,7 @@
     "deepin-wine6": {
         "WineName": "deepin-wine6",
         "WineVersion": "6.0-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/vekDeepinWine/vekDeepinWine6.git",
+        "WineGit": "https://e.coding.net/JackLee_CN/vekdeepinwine6/vekDeepinWine6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
