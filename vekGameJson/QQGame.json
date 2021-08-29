@@ -9,7 +9,7 @@
     },
     "Docker":{
         "DockerSysVersion":"win7",
-        "DockerVersion":"win32",
+        "DockerVersion":"win64",
         "DockerWineVersion":"wine",
         "MonoState":"false",
         "GeckoState":"false"
