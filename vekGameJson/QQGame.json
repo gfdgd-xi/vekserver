@@ -21,7 +21,6 @@
     "Env": {},
     "Libs": 
      [
-    "vcrun6",
     "corefonts",
     "fakechinese",
     "vcrun2013",
