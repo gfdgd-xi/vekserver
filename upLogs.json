@@ -10,6 +10,9 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 
 更新日志
 
+2021-09-07(v1.0.2.5)
+增加一些不可描述的功能
+
 2021-08-29(v1.0.2.4)
 1-分离Docker和APP设置选项
 2-调整Docker和APP功能选项

@@ -1,8 +1,8 @@
 {
-    "version": "1.0.2.4",
-    "uFileStr": "https://fancy-brook-66ae.vek.workers.dev/UEK/vek-0829.zip",
+    "version": "1.0.2.5",
+    "uFileStr": "https://fancy-brook-66ae.vek.workers.dev/UEK/vek-0907.zip",
     "uLogsStr": "https://gitee.com/JackLee02/vekGame/raw/master/upLogs.json",
-    "urlFilePassword":"2021-8-29",
-    "uFileSHA512":"931e6931fccecf81c7601a6932cc443223263be79e7af9926e285d90356e91e1"
+    "urlFilePassword":"2021-0907",
+    "uFileSHA512":"0ac9cd9c7d40fae7b90b5036f904584fdbcdfdf102177eb24f090ee915cdfe42"
 }
 
