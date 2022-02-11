@@ -10,6 +10,11 @@ sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
 
 更新日志
 
+2022-02-11(v1.0.2.5)
+1-增加UEngine
+2-增加winetricks下载引擎选项
+3-启用winetricks安装组件进度显示
+
 2021-08-29(v1.0.2.4)
 1-分离Docker和APP设置选项
 2-调整Docker和APP功能选项
