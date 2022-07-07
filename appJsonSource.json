@@ -3,47 +3,47 @@
          "古剑奇谭网络版":{
              "AppName":"古剑奇谭网络版",
              "AppIco":"gujianol.exe",
-             "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GuJianOnLine.json"
+             "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/GuJianOnLine.json"
          },
         "Steam":{
             "AppName":"Steam",
             "AppIco":"steam",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Steam.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/Steam.json"
         },
         "网易战网":{
             "AppName":"网易战网",
             "AppIco":"Battle.net",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Battle.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/Battle.json"
         },
         "阴阳师":{
             "AppName":"阴阳师",
             "AppIco":"Launch.exe",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/Onmyoji.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/Onmyoji.json"
         },
         "GOG游戏平台":{
             "AppName":"GOG游戏平台",
             "AppIco":"GalaxyClient",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GOG.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/GOG.json"
         },
         "QQ游戏平台":{
             "AppName":"QQ游戏平台",
             "AppIco":"qqgame",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQGame.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/QQGame.json"
         },
         "WeGame":{
             "AppName":"WeGame",
             "AppIco":"wegame",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeGame.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/WeGame.json"
         },
         "最终幻想14(盛大)":{
             "AppName":"最终幻想14(盛大)",
             "AppIco":"FFXIVBoot",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/FFXIV.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/FFXIV.json"
         },
         "游聚游戏平台":{
             "AppName":"游聚游戏平台",
             "AppIco":"启动游聚游戏平台",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/YJGame.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/YJGame.json"
         }
 
     },
@@ -54,37 +54,37 @@
         "酷狗8.0":{
             "AppName":"酷狗9.0",
             "AppIco":"KuGou",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/KuGou9.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/KuGou9.json"
         },
         "QQ音乐":{
            "AppName":"QQ音乐",
            "AppIco":"QQMusic",
-           "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/QQMusic.json"
+           "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/QQMusic.json"
         },
         "腾讯QQ":{
             "AppName":"腾讯QQ",
             "AppIco":"QQ",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentQQ.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/TencentQQ.json"
          },
          "腾讯TIM":{
             "AppName":"腾讯TIM",
             "AppIco":"TIM",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TencentTIM.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/TencentTIM.json"
          },
          "微信PC版":{
             "AppName":"微信PC版",
             "AppIco":"WeChat",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/WeChat.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/WeChat.json"
          },
          "爱奇艺PC版":{
             "AppName":"爱奇艺PC版",
             "AppIco":"QyClient",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/IQiYi.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/IQiYi.json"
          },
          "腾讯读书课堂":{
             "AppName":"腾讯读书课堂",
             "AppIco":"TXEDU",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/TXEDU.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/TXEDU.json"
          }
     },
     "行业软件":{
@@ -94,7 +94,7 @@
         "GoogleEarth":{
             "AppName":"GoogleEarth",
             "AppIco":"googleearth",
-            "AppJson":"https://gitee.com/JackLee02/vekGame/raw/master/vekGameJson/GoogleEarth.json"
+            "AppJson":"https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/vekGameJson/GoogleEarth.json"
         }
     }
 }

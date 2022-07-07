@@ -1,7 +1,7 @@
 {
     "version": "1.0.2.5",
     "uFileStr": "https://fancy-brook-66ae.vek.workers.dev/UEK/vek-0211.zip",
-    "uLogsStr": "https://gitee.com/JackLee02/vekGame/raw/master/upLogs.json",
+    "uLogsStr": "https://bitbucket.org/jacklee_CN/vekserver/raw/ba3cf3e3b5bffb5bff5038484d08f3334f7aad3e/upLogs.json",
     "urlFilePassword":"2022-02-11",
     "uFileSHA512":"3080da1dfb45d6aab5313b1f7ff3deafa8168c34bf6a0f2e7c3619d7436e8dde"
 }

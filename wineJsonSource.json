@@ -2,7 +2,7 @@
     "wine6.7-dev": {
         "WineName": "wine6.7-dev",
         "WineVersion": "6.7-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/wineVekDev/wineVekDev.git",
+        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/winevekdev.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -11,22 +11,10 @@
         "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
         "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
     },
-    "wine6.6-dev": {
-        "WineName": "wine6.6-dev",
-        "WineVersion": "6.6-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/wineVekStable/wineVekStable.git",
-        "WineDxvk": [
-            "dxvk-1.7",
-            "dxvk-1.8.1"
-        ],
-       "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
-       "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
-       "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
-    },
     "deepin-wine5": {
         "WineName": "deepin-wine5",
         "WineVersion": "5.0-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/vekDeepinWine/vekDeepinWine.git",
+        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/vekdeepinwine.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -38,7 +26,7 @@
     "deepin-wine6": {
         "WineName": "deepin-wine6",
         "WineVersion": "6.0-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/vekdeepinwine6/vekDeepinWine6.git",
+        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/vekdeepinwine6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -50,7 +38,7 @@
     "vekLutris6": {
         "WineName": "vekLutris6",
         "WineVersion": "6.13-dev",
-        "WineGit": "https://e.coding.net/JackLee_CN/veklutris6/vekLutris6.git",
+        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/veklutris6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
