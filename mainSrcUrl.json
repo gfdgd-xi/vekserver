@@ -1,0 +1,7 @@
+{"wineUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/wineJsonSource.json",
+ "appJsonUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/appJsonSource.json",
+ "winetrickUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/vekWinetricksServer.json",
+ "upLogs":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/upLogs.json",
+ "logShow":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/vekLogShow.json",
+ "updateInfo":"https://bitbucket.org/jacklee_CN/vekserver/raw/4cacf02d2ecf5e3bae2edc158ad890c6292df7ae/vekUpdateInfo.json"
+}
