@@ -2,7 +2,7 @@
     "wine6.7-dev": {
         "WineName": "wine6.7-dev",
         "WineVersion": "6.7-dev",
-        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/winevekdev.git",
+        "WineGit": "https://codeberg.org/jacklee_cn/vekwinehqdev.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -14,7 +14,7 @@
     "deepin-wine5": {
         "WineName": "deepin-wine5",
         "WineVersion": "5.0-dev",
-        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/vekdeepinwine.git",
+        "WineGit": "https://codeberg.org/jacklee_cn/vekdeepinwine.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -26,7 +26,7 @@
     "deepin-wine6": {
         "WineName": "deepin-wine6",
         "WineVersion": "6.0-dev",
-        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/vekdeepinwine6.git",
+        "WineGit": "https://codeberg.org/jacklee_cn/vekdeepinwine6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
@@ -38,7 +38,7 @@
     "vekLutris6": {
         "WineName": "vekLutris6",
         "WineVersion": "6.13-dev",
-        "WineGit": "https://jacklee_CN@bitbucket.org/jacklee_CN/veklutris6.git",
+        "WineGit": "https://codeberg.org/jacklee_cn/veklutris6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
