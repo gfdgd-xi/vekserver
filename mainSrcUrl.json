@@ -1,7 +1,7 @@
-{"wineUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/wineJsonSource.json",
- "appJsonUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/appJsonSource.json",
- "winetrickUrl":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/vekWinetricksServer.json",
- "upLogs":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/upLogs.json",
- "logShow":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/vekLogShow.json",
- "updateInfo":"https://bitbucket.org/jacklee_CN/vekserver/raw/1b2bf5452a2ec52e1696af4add5858cb44134b6d/vekUpdateInfo.json"
+{"wineUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/wineJsonSource.json",
+ "appJsonUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/appJsonSource.json",
+ "winetrickUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekWinetricksServer.json",
+ "upLogs":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/upLogs.json",
+ "logShow":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekLogShow.json",
+ "updateInfo":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekUpdateInfo.json"
 }
