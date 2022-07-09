@@ -38,7 +38,7 @@
     "vekLutris6": {
         "WineName": "vekLutris6",
         "WineVersion": "6.13-dev",
-        "WineGit": "https://codeberg.org/jacklee_cn/veklutris6.git",
+        "WineGit": "https://jihulab.com/JackLee_CN/veklutris6.git",
         "WineDxvk": [
             "dxvk-1.7",
             "dxvk-1.8.1"
