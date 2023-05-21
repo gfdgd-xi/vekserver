@@ -1,4 +1,5 @@
 在原版 Vek 的基础上进行修改
+原作者：jacklee_cn，由 gfdgd xi 修改
 
 1.0.2.4系统运行环境库(必须):
 sudo apt install dh-make fakeroot aria2 wget curl winbind cabextract libvulkan1 libvulkan1:i386 icoutils wmctrl
