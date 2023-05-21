@@ -1,7 +1,7 @@
-{"wineUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/wineJsonSource.json",
- "appJsonUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/appJsonSource.json",
- "winetrickUrl":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekWinetricksServer.json",
- "upLogs":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/upLogs.json",
- "logShow":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekLogShow.json",
- "updateInfo":"https://codeberg.org/jacklee_cn/vekserver/raw/branch/master/vekUpdateInfo.json"
+{"wineUrl":"http://config.vek.gfdgdxi.top/wineJsonSource.json",
+ "appJsonUrl":"http://config.vek.gfdgdxi.top/appJsonSource.json",
+ "winetrickUrl":"http://config.vek.gfdgdxi.top/vekWinetricksServer.json",
+ "upLogs":"http://config.vek.gfdgdxi.top/upLogs.json",
+ "logShow":"http://config.vek.gfdgdxi.top/vekLogShow.json",
+ "updateInfo":"http://config.vek.gfdgdxi.top/vekUpdateInfo.json"
 }
