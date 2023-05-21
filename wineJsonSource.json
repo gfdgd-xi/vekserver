@@ -13,7 +13,7 @@
         
     },
     "wine-stable-8.0.1-x86_64-kgithub": {
-        "WineName": "wine-stable-8.0.1-x86_64",
+        "WineName": "wine-stable-8.0.1-x86_64-kgithub",
         "WineVersion": "8.0.1-stable",
         "WineGit": "https://kgithub.com/gfdgd-xi/wine-stable-8.0.1-x86_64.git",
         "WineDxvk": [
