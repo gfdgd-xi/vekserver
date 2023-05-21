@@ -12,6 +12,19 @@
         "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
         
     },
+    "wine-stable-8.0.1-x86_64-kgithub": {
+        "WineName": "wine-stable-8.0.1-x86_64",
+        "WineVersion": "8.0.1-stable",
+        "WineGit": "https://kgithub.com/gfdgd-xi/wine-stable-8.0.1-x86_64.git",
+        "WineDxvk": [
+            "dxvk-1.7",
+            "dxvk-1.8.1"
+        ],
+        "Mono": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi",
+        "GeckoX86": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi",
+        "GeckoX86_64": "https://mirrors.tuna.tsinghua.edu.cn/winehq/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi"
+        
+    },
     "wine6.7-dev": {
         "WineName": "wine6.7-dev",
         "WineVersion": "6.7-dev",
